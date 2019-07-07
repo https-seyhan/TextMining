@@ -166,6 +166,11 @@ print(type(receipt))
 
 
 # In[ ]:
+Clean Text  ['Receipt', 'travel', 'fae', 'PC', 'travel', 'tours', 'seaters', 'hire', 'rail', 'cars', 'Airport', 'prioity', 'meet', 'ores', 'xury', 'executive', 'travel\\n\\nVISA', 'eta', '\\n\\nfees)\\n\\nanmojorcards', 'wing', 'EXCELLENCE', 'HIGHLANDS']
+[(9788585321747494026, 0, 1)]
+0 1 Receipt
+[HIGHLANDS, EXCELLENCE, wing, \n\nfees)\n\nanmojorcards, eta, travel, fae, PC, travel, tours]
+{'Receipt': {HIGHLANDS: -1, EXCELLENCE: -2, wing: -3, \n\nfees)\n\nanmojorcards: -4, eta: -5, travel: 1, fae: 2, PC: 3, travel: 4, tours: 5}}
 
 
 
