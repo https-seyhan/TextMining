@@ -1,0 +1,46 @@
+
+Performance Metric
+
+The NLP I and V scraping of the yextThree groups :
+
+1) item name complately matched
+2) Paritally matched
+3) No matched
+
+calculate match accuracy:
+
+the match accuracy per text is between 0% and 100% and calculated as below
+
+Accuracy = (Total number of matched words / Total number words of the actual item) *100
+
+Example of poor machine translation output with high precision 
+Candidate 
+the
+the
+the
+the
+the
+the
+the 
+Reference 1 
+the
+cat
+is
+on
+the
+mat
+
+Reference 2 
+there
+is
+a
+cat
+on
+the
+mat 
+
+Accuracy between 100% and 75% → Good match
+Accuracy between 74% and 50% → Moderate  match
+Accuracy between => 49% → Poor
+
+Overall I accuracy Average of individual text
