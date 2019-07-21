@@ -15,9 +15,14 @@ million.",
 doc = nlp(text)
 
 pattern = [{"LOWER": {"REGEX": "\\b\w*(?:compared)\w*\b"}}]
+pattern = [{"TEXT": {"REGEX": "compared*"}}]
 
 matcher = Matcher(nlp.vocab)
 matcher.add("item", None, pattern )
 matches = matcher(doc)
+for match_id, start, end in matches:
+  string_id = nlp.vocab.strings[match_id]  # Get string representation
+  span = doc[start:end]  # The matched span
+  print(start, end, span.text)
 print(matches)
 print(matcher)
