@@ -21,9 +21,7 @@ Created on Fri Jul  5 00:46:57 2019
 """
 
 import plac
-from spacy.lang.en import English
-from spacy.matcher import PhraseMatcher, Matcher
-from spacy.tokens import Doc, Span, Token
+
 import spacy
 import pandas as pd
 import re
