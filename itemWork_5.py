@@ -23,6 +23,9 @@ Created on Fri Jul  5 00:46:57 2019
 import plac
 
 import spacy
+from spacy.matcher import Matcher
+from spacy.tokens import Doc
+
 import pandas as pd
 import re
 
