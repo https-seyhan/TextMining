@@ -72,7 +72,7 @@ def getItem(receipt):
     print("Clean Text ", cleantext) 
 
 #cleandoc = nlp(Doc(nlp.vocab, cleantext))
-# convert list ot nlp doc
+# convert list to nlp doc
     cleandoc = Doc(nlp.vocab, words=cleantext)
     #print("cleandoc ", cleandoc)
     matcher = Matcher(nlp.vocab)
