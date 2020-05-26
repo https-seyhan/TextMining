@@ -4,6 +4,8 @@
 Created on Tue Jun 25 22:34:17 2019
 
 @author: saul
+
+#This code performs OCY using Python modules
 """
 
 import os
