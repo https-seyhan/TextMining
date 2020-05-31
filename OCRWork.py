@@ -5,7 +5,7 @@ Created on Tue Jun 25 22:34:17 2019
 
 @author: saul
 
-#This code performs OCY using Python modules
+#This code performs OCR using Python modules
 """
 
 import os
