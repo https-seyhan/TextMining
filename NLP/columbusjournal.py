@@ -10,6 +10,7 @@ from nltk.stem import PorterStemmer
 from nltk.probability import FreqDist
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+import operator
 from matplotlib import pyplot as plt
 
 figsize = (1500 / 50, 400 / 50)
@@ -61,23 +62,28 @@ def nlpVectorisation(journal, stop_words):
     sentence_tk = sent_tokenize(journal)
     # remove stopwords
     clean_text = [sent for sent in sentence_tk if not sent in stop_words]
-    clean_text= [x.replace('\n', '') for x in clean_text]
+    clean_text = [x.replace('\n', '') for x in clean_text]
 
     #tf-idf
     vectorizer = TfidfVectorizer(min_df=1)
     model = vectorizer.fit_transform(clean_text)
+    getPurpose(model, clean_text)
 
-    #print("Model Values ", len(model[0].todense()))
-    wordweights = model[0].data
 
-    words = clean_text[0].split(" ")
+def getPurpose(model, clean_text):
+    # print("Model Values ", len(model[0].todense()))
+    wordweights = model[1].data
 
-    dict = {}
+    words = clean_text[1].split(" ")
+
+    sentencepurpose = {}
     for word in range(len(wordweights)):
         print(wordweights[word])
         print(words[word])
-        dict[words[word]] = wordweights[word]
-    print("dictionary ", dict)
+        sentencepurpose[words[word]] = wordweights[word]
+
+    sentencepurpose = dict(sorted(sentencepurpose.items(), key=operator.itemgetter(1), reverse=True))
+    print("Purpose ", sentencepurpose)
 
 
 def wordAnalysis(clean_text):
