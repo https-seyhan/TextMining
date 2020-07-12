@@ -10,6 +10,7 @@ from nltk.stem import PorterStemmer
 from nltk.probability import FreqDist
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+from itertools import islice
 import operator
 from matplotlib import pyplot as plt
 
@@ -31,6 +32,7 @@ def nlpWork():
     stop_words.add('one')
     stop_words.add('two')
     stop_words.add('It')
+    stop_words.add('be')
 
     #word tokenize
     word_tk = word_tokenize(journal)
@@ -38,8 +40,10 @@ def nlpWork():
     clean_text = [word for word in word_tk if not word in stop_words]
     #remove punctuation
     clean_text = [word for word in clean_text if word.isalnum()]
+    #print("Len clean Text ", len(clean_text))
     #lemmWords(clean_text)
     #wordAnalysis(clean_text)
+    #print("Len Journal", len(journal))
     nlpVectorisation(journal, stop_words)
 
 def lemmWords(clean_text):
@@ -58,33 +62,50 @@ def lemmWords(clean_text):
 def nlpVectorisation(journal, stop_words):
     #print("Vectors")
 
-    #ger senstence token
+    stop_words.add('one')
+    stop_words.add('two')
+    stop_words.add('It')
+
+    #get sentence token
     sentence_tk = sent_tokenize(journal)
     # remove stopwords
-    clean_text = [sent for sent in sentence_tk if not sent in stop_words]
-    clean_text = [x.replace('\n', '') for x in clean_text]
+    clean_text = []
+    for sent in sentence_tk:
+        clean_text.append(' '.join(w for w in nltk.word_tokenize(sent) if w.lower() not in stop_words))
 
+    #clean_text = [sent for sent in sentence_tk if not sent in stop_words]
+    clean_text = [x.replace('\n', '') for x in clean_text]
+    #print("Len Journal", len(clean_text))
+    #print("Len clean Text ", len(clean_text))
     #tf-idf
     vectorizer = TfidfVectorizer(min_df=1)
     model = vectorizer.fit_transform(clean_text)
-    getPurpose(model, clean_text)
+    sentenceCount = 0
+    while len(clean_text) > sentenceCount:
+        getPurpose(model, clean_text, sentenceCount)
+        sentenceCount += 1
 
-
-def getPurpose(model, clean_text):
+def getPurpose(model, clean_text, sentenceNum):
     # print("Model Values ", len(model[0].todense()))
-    wordweights = model[1].data
+    print("Index Num ", sentenceNum)
+    # get weights of words
+    wordweights = model[sentenceNum].data
 
-    words = clean_text[1].split(" ")
+    words = clean_text[sentenceNum].split(" ")
 
     sentencepurpose = {}
+
+    #get tfidf wectors and insert into a dictionary
     for word in range(len(wordweights)):
-        print(wordweights[word])
+
+        #print(wordweights[word])
         print(words[word])
         sentencepurpose[words[word]] = wordweights[word]
 
     sentencepurpose = dict(sorted(sentencepurpose.items(), key=operator.itemgetter(1), reverse=True))
-    print("Purpose ", sentencepurpose)
-
+    #print("Purpose ", sentencepurpose)
+    top_3_words = list(sentencepurpose)[:3]
+    print("Purpose ", top_3_words)
 
 def wordAnalysis(clean_text):
     #plot word distribution
