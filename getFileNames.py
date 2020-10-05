@@ -5,6 +5,8 @@ Created on Tue Jun 25 21:59:39 2019
 
 @author: saul
 """
+# This code get each file names and their extentions in a given folder.
+
 import pandas as pd
 from os import listdir
 from os.path import isfile, join
