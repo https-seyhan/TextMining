@@ -5,6 +5,7 @@ Created on Mon Jun 24 22:57:51 2019
 
 @author: saul
 """
+#GloVe model implementation in Python
 
 from glove import Corpus, Glove
 
