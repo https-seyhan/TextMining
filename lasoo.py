@@ -5,7 +5,7 @@ import random
 import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
 
-# Sunus function visualisation
+# Sinus function visualisation
 
 def test():
 	print('Test')
