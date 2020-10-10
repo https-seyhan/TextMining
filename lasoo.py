@@ -5,6 +5,8 @@ import random
 import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
 
+# Sunus function visualisation
+
 def test():
 	print('Test')
 	%matplotlib inline
