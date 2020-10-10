@@ -7,7 +7,7 @@ from matplotlib.pylab import rcParams
 
 # Sine function visualisation
 
-def test():
+def visualise():
 	print('Test')
 	%matplotlib inline
 
@@ -21,4 +21,4 @@ data = pd.DataFrame(np.column_stack([x,y]),columns=['x','y'])
 plt.plot(data['x'],data['y'],'.')
 
 if __name__ == '__main__':
-	test()
+	visualise()
