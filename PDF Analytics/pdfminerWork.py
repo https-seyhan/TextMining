@@ -15,6 +15,8 @@ import PyPDF2
 
 import os
 
+# convert pdf file to text
+
 os.chdir('/home/saul/royal/royal/spiders/')
 
 print("PDFMiner")
