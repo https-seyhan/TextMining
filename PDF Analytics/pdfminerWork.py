@@ -16,6 +16,7 @@ import PyPDF2
 import os
 
 # convert pdf file to text
+# then store the text in to a .txt file
 
 os.chdir('/home/saul/royal/royal/spiders/')
 
@@ -49,7 +50,7 @@ def readfiles(firstFile, secondFile):
         # #if word in keyword:
                 #print("Page Number : ", count)
     tokens = word_tokenize(text1)
-    #print("TEXT ", text)
+    
     print(tokens)
 
     with open('firstfile.txt', 'w') as f:
