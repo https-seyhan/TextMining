@@ -5,6 +5,7 @@ Created on Sun Jun 30 12:07:25 2019
 
 @author: saul
 """
+# Extact text from images and then perform NLP on extracted text
 
 import os
 from PIL import Image as PI
@@ -37,11 +38,7 @@ def NLPWork():
         #two n-gram
         cv = CountVectorizer(ngram_range=(1,2)).fit(receipt_data)
         for x in receipt_data:
-            #print(receipt_data[x])
-            #print("AAAAAAAAAAAAAA")
-        #print(vec)
-            #print(vec.fit(receipt_data))
-        #myreceipt = receipt_data.get["receipt"]
+
             vec.fit([receipt_data[x]])
             bag_of_words = vec.transform([receipt_data[x]])
             print("bag_of_words: {}".format(repr(bag_of_words)))
