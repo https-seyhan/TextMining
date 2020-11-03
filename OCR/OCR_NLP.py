@@ -8,7 +8,7 @@ Created on Sun Jun 30 12:07:25 2019
 
 import os
 from PIL import Image as PI
-from pytesseract import image_to_string
+from pytesseract import image_to_string # scrap text from images using pytesseract module
 import pytesseract
 from sklearn.feature_extraction.text import CountVectorizer
 import spacy
