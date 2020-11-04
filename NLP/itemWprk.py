@@ -5,8 +5,9 @@ from spacy.tokens import Doc, Span, Token
 
 nlp = English()
 # remove stop words
-
-# get the location of 
+# seach pattern1 and pattern2 in text using Python spaCy
+# get the location of pattern1 and pattern2
+# get the prior 5 and previous 5 words around pattern1 and pattern2
 
 text = """
     "Net income was $9.4 million compared to the prior year of $2.7 million.",
