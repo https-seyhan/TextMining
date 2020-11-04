@@ -4,6 +4,9 @@ from spacy.matcher import PhraseMatcher
 from spacy.tokens import Doc, Span, Token
 
 nlp = English()
+# remove stop words
+
+# get the location of 
 
 text = """
     "Net income was $9.4 million compared to the prior year of $2.7 million.",
