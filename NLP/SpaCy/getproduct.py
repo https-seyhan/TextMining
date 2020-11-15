@@ -1,5 +1,7 @@
-#load spacy
+#import spacy
+#load spacy NLP library
 #get text
+#chech text label if it is a product
 import spacy
 nlp = spacy.load("en_core_web_lg")
 text = "iPhones."
