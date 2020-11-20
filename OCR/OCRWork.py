@@ -8,7 +8,7 @@ Created on Tue Jun 25 22:34:17 2019
 #This code performs OCR using Python modules
 """
 # This code employs pytesseract
-# Crawly 
+# Crawly in a directory
 
 import os
 from PIL import Image as PI
