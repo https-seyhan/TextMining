@@ -20,7 +20,7 @@ report = pd.read_csv('prReports.csv', encoding='utf-8')
 print(len(report.columns))
 print(report.columns)
 
-clf = MultinomialNB()
+#clf = MultinomialNB()
 
 X = report['Description:'].values
 print(X[0])
