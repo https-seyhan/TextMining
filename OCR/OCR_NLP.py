@@ -17,7 +17,7 @@ import PyPDF2
 from os import listdir
 from os.path import isfile, join
 
-receipt_data = {}
+receipt_data = {} # Dictionary of receipts
 tesseract_cmd = 'tesseract'
 
 os.chdir('/home/saul/pythontraining/NLP')
