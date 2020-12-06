@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+# SpaCy NLP classification training
+
 from __future__ import unicode_literals, print_function # To use different versions of Python 
 
 import plac
