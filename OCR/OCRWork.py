@@ -10,7 +10,7 @@
 # Crawly in a directory and obtain each file name of the direcrory
 
 import os
-from PIL import Image as PI
+from PIL import Image as PI # Python image library
 from pytesseract import image_to_string
 import pytesseract
 
