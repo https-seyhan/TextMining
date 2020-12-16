@@ -38,5 +38,5 @@ for file in onlyfiles:
 
 def convertImageString():
     a = PI.open("first.jpg")
-    print(image_to_string(a))
+    print(image_to_string(a)) # extract text in the images
     
