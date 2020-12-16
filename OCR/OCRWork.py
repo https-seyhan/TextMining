@@ -30,11 +30,11 @@ for file in onlyfiles:
 
     count = 0
 
-    while count < 3:
+    while count < 3: # read first 2 pages of the pdf files
 
         pageObj = fileReader.getPage(count)
         count +=1
-        text = pageObj.extractText()
+        text = pageObj.extractText() 
 
 def convertImageString():
     a = PI.open("first.jpg")
