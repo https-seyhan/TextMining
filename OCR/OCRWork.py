@@ -23,6 +23,7 @@ tesseract_cmd = 'tesseract'
 os.chdir('/home/saul/pythontraining')
 
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
+
 for file in onlyfiles:
     fileReader = PyPDF2.PdfFileReader(open(file,'rb'))
 
