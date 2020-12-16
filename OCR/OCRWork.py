@@ -37,6 +37,6 @@ for file in onlyfiles:
         text = pageObj.extractText() 
 
 def convertImageString():
-    a = PI.open("first.jpg")
+    a = PI.open("first.jpg") # sample image
     print(image_to_string(a)) # extract text in the images
     
