@@ -8,7 +8,7 @@
 
 from __future__ import unicode_literals, print_function
 
-import plac
+import plac # Plac is a wrapper over argparse and works in all versions of Python starting from Python 2.3 up to Python 3.1
 import spacy
 
 
