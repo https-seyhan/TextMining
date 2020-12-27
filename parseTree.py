@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
+Build word tree of a sentence using NLP (Spacy) approach
 @author: saul
 """
 
