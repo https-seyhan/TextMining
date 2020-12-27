@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, print_function
 """
-Created on Wed Jul  3 20:29:24 2019
 
 @author: saul
 """
