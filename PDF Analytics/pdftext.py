@@ -59,7 +59,7 @@ def convert(fname, pages=None):
         print(interpreter.process_page(page))
     print(converter)
     infile.close()
-    #print(output)
+   
     converter.close()
     text = output.getvalue()
     output.close
