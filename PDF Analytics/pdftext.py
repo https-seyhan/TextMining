@@ -20,9 +20,6 @@ import sys, getopt
 os.chdir('/home/saul/pdfwork')
 path = 'sample.pdf'
 
-
-
-
 def convert_pdf_to_txt(path):
     print(path)
     rsrcmgr = PDFResourceManager()
