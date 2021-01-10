@@ -1,6 +1,7 @@
 # Libraries
 library(RTextTools)
 library(e1071) #SVM
+
 # Sentiment Examples
 pos_tweets =  rbind(
   c('I love this car', 'positive'),
