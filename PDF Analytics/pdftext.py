@@ -67,8 +67,7 @@ def convert(fname, pages=None):
     
     #Save pdf file to text
     with open('texted.txt','w') as f:
-        f.write(text)
-    
+        f.write(text)   
     return text 
 
 
