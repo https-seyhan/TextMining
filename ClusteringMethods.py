@@ -80,7 +80,6 @@ def recommend(username, users):
 	print("Recommendation :", recommendations)
 	return recommendations
 
-
 def pearson(rating1, rating2):
 	sum_xy = 0
 	sum_x = 0
@@ -106,9 +105,6 @@ def pearson(rating1, rating2):
 		return 0
 	else:
 		return(sum_xy - (sum_x*sum_y)/n) /denominator
-
-
-
 
 if __name__ == '__main__':
 	#main()
