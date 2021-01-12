@@ -36,7 +36,6 @@ def euclidian(rating1, rating2):
 	else:
 		return -1
 
-
 def manhattan(rating1, rating2):
 
 	distance = 0
