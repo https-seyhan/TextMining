@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
 @author: saul
-
 #This code performs OCR using Python modules
 """
 # This code employs pytesseract
