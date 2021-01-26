@@ -10,7 +10,8 @@
 import os
 from PIL import Image as PI # Python image library
 from pytesseract import image_to_string
-import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. That is, it will recognize and “read” the text embedded in images
+import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. 
+#That is, it will recognize and “read” the text embedded in images
 
 import PyPDF2
 from os import listdir
