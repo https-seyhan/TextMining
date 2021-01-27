@@ -59,7 +59,6 @@ def lemmWords(clean_text):
 
 def nlpVectorisation(journal, stop_words):
     #print("Vectors")
-
     stop_words.add('one')
     stop_words.add('two')
     stop_words.add('It')
