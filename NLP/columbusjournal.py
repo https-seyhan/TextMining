@@ -53,7 +53,6 @@ def lemmWords(clean_text):
     #print("Lemminized Words ", lemm_words)
     fd = FreqDist(lemm_words)
     freqs = fd.most_common()
-    #print(freqs)
     fd.plot(50, cumulative=False)
     plt.show()
 
