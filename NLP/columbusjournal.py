@@ -31,7 +31,6 @@ def nlpWork():
     stop_words.add('two')
     stop_words.add('It')
     stop_words.add('be')
-
     #word tokenize
     word_tk = word_tokenize(journal)
     #remove stopwords
