@@ -19,7 +19,6 @@ wordfreqs =[['', '']]
 os.chdir('/home/saul/pythontraining/NLP')
 
 def nlpWork():
-
     with open('journal.txt', 'r') as file:
         journal = file.read()
     # remove numbers
