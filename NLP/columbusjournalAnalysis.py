@@ -30,7 +30,6 @@ def nlpWork():
     clean_text = [word for word in clean_text if word.isalnum()]
     wordAnalysis(clean_text)
 
-
 def wordAnalysis(clean_text):
     #plot word distribution
     fd = FreqDist(clean_text)
