@@ -89,9 +89,7 @@ def getPurpose(model, clean_text, sentenceNum):
     print("Index Num ", sentenceNum)
     # get weights of words
     wordweights = model[sentenceNum].data
-
     words = clean_text[sentenceNum].split(" ")
-
     sentencepurpose = {}
 
     #get tfidf wectors and insert into a dictionary
