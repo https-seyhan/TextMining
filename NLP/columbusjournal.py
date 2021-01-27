@@ -90,7 +90,6 @@ def getPurpose(model, clean_text, sentenceNum):
 
     #get tfidf vectors and insert into a dictionary
     for word in range(len(wordweights)):
-
         #print(wordweights[word])
         print(words[word])
         sentencepurpose[words[word]] = wordweights[word]
