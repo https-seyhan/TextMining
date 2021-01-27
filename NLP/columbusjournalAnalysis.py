@@ -19,7 +19,6 @@ def nlpWork():
 
     with open('journal.txt', 'r') as file:
         journal = file.read()
-
     # remove numbers
     journal = re.sub(r'\d+', '', journal)
     stop_words = set(stopwords.words("english"))
