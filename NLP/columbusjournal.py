@@ -37,7 +37,6 @@ def nlpWork():
     clean_text = [word for word in word_tk if not word in stop_words]
     #remove punctuation
     clean_text = [word for word in clean_text if word.isalnum()]
-   
     #lemmWords(clean_text)
     #wordAnalysis(clean_text)
     #print("Len Journal", len(journal))
