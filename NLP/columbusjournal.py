@@ -86,7 +86,6 @@ def getPurpose(model, clean_text, sentenceNum):
     for word in range(len(wordweights)): 
         print(words[word])
         sentencepurpose[words[word]] = wordweights[word]
-
     sentencepurpose = dict(sorted(sentencepurpose.items(), key=operator.itemgetter(1), reverse=True))
     #print("Purpose ", sentencepurpose)
     top_3_words = list(sentencepurpose)[:3]
