@@ -81,7 +81,6 @@ def getPurpose(model, clean_text, sentenceNum):
     wordweights = model[sentenceNum].data
     words = clean_text[sentenceNum].split(" ")
     sentencepurpose = {}
-
     #get tfidf vectors and insert into a dictionary
     for word in range(len(wordweights)): 
         print(words[word])
