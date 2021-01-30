@@ -79,7 +79,6 @@ def nlpVectorisation(journal, stop_words):
 
 def getPurpose(model, clean_text, sentenceNum):
     # print("Model Values ", len(model[0].todense()))
-    
     # get weights of words
     wordweights = model[sentenceNum].data
     words = clean_text[sentenceNum].split(" ")
