@@ -48,7 +48,6 @@ def lemmWords(clean_text):
     lem = WordNetLemmatizer()
     for i in range(len(clean_text)):
         lemm_words.append(lem.lemmatize(clean_text[i]))
-
     #print("Lemminized Words ", lemm_words)
     fd = FreqDist(lemm_words)
     freqs = fd.most_common()
