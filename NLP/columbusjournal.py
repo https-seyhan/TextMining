@@ -39,7 +39,7 @@ def nlpWork():
     clean_text = [word for word in clean_text if word.isalnum()]
     #lemmWords(clean_text)
     #wordAnalysis(clean_text)
-    #print("Len Journal", len(journal))
+    
     nlpVectorisation(journal, stop_words)
 
 def lemmWords(clean_text):
