@@ -70,7 +70,7 @@ def readpdfFile(secondFile):
     num_pages = pdfReader2.numPages
     count = 0
     text2 = ""
-    # keyword = stopwords.words('Munich re')
+    # keyword = stopwords.words('Google')
     # The while loop will read each page
     while count < num_pages:
         pageObj2 = pdfReader2.getPage(count)
