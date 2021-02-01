@@ -86,7 +86,6 @@ def readpdfFile(secondFile):
     print(wordtokens)
     print(len(wordtokens))
 
-
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
 
