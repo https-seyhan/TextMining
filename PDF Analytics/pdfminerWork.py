@@ -86,10 +86,6 @@ def readpdfFile(secondFile):
     print(wordtokens)
     print(len(wordtokens))
 
-    #fdist = nltk.FreqDist(text2)
-
-    #for w, frequency in fdist.most_common(20000):
-        #print(w, len(w), frequency)
 
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
