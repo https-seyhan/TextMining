@@ -60,7 +60,7 @@ def convert(fname, pages=None):
     converter.close()
     text = output.getvalue()
     output.close
-    #print(text)
+   
     
     #Save pdf file to text
     with open('texted.txt','w') as f:
