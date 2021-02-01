@@ -40,8 +40,6 @@ def readfiles(firstFile, secondFile):
         pageObj = pdfReader1.getPage(count)
         count += 1
         text1 += pageObj.extractText()
-
-
     tokens = word_tokenize(text1)
     
     print(tokens)
