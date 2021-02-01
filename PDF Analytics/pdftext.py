@@ -69,7 +69,6 @@ def convert(fname, pages=None):
         f.write(text)   
     return text 
 
-
 if __name__ == '__main__':
      #convert_pdf_to_txt(path)
      convert('sample.pdf')
