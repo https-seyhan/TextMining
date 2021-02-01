@@ -36,7 +36,6 @@ def convert_pdf_to_txt(path):
         interpreter.process_page(page)
 
     text = retstr.getvalue()
-
     fp.close()
     device.close()
     retstr.close()
@@ -47,7 +46,7 @@ def convert(fname, pages=None):
         pagenums = set()
     else:
         pagenums = set(pages)
- 
+
     output = StringIO()
     manager = PDFResourceManager()
     converter = TextConverter(manager, output, laparams=LAParams())
