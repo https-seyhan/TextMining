@@ -481,7 +481,6 @@ inspect(tdm)
 office365positiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/office365positiveposts.csv")
 df <- data.frame(V1 = office365positiveposts)
 mycorpus <- Corpus(DataframeSource(df))
-
 tdm <- TermDocumentMatrix(mycorpus)
 
 findFreqTerms(tdm, 20, 94)
