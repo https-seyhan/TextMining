@@ -236,7 +236,6 @@ summary(surfacenegativeUsers)
 
 
 users.df <- data.frame(V1 = surfacenegativeUsers )
-
 users.corpus <- Corpus(DataframeSource(users.df))
 users.corpus <- tm_map(users.corpus, removePunctuation)
 users.corpus <- tm_map(users.corpus, removeNumbers)
