@@ -229,7 +229,6 @@ surfacenegativeUsers <- surfacenegative$body.username
 summary(surfacenegativeUsers)
 #freq(surfacenegativeUsers)
 
-
 users.df <- data.frame(V1 = surfacenegativeUsers )
 users.corpus <- Corpus(DataframeSource(users.df))
 users.corpus <- tm_map(users.corpus, removePunctuation)
