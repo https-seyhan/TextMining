@@ -27,7 +27,6 @@ office365positiveUsers <- office365positive$body.username
 
 users.df <- data.frame(V1 = office365positiveUsers)
 users.corpus <- Corpus(DataframeSource(users.df))
-
 users.corpus <- tm_map(users.corpus, removePunctuation)
 users.corpus <- tm_map(users.corpus, removeNumbers)
 
