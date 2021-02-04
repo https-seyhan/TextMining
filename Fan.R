@@ -117,7 +117,6 @@ summary(office365negativeUsers)
 
 users.df <- data.frame(V1 = office365negativeUsers)
 users.corpus <- Corpus(DataframeSource(users.df))
-
 users.corpus <- tm_map(users.corpus, removePunctuation)
 users.corpus <- tm_map(users.corpus, removeNumbers)
 users.corpus <- tm_map(users.corpus , removeWords, c("and","also", "you", "would", "youll", "your", "youre", "https",
