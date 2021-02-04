@@ -2,7 +2,6 @@ library(NLP)
 library(tm)
 library(descr)
 library(qdap)
-
 library("plyr")
 library("ggplot2")
 library("wordcloud")
