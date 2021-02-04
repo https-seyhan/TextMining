@@ -543,7 +543,7 @@ mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "y
 tdm <- TermDocumentMatrix(mycorpus)
 
 findFreqTerms(tdm, 2, 1000)
-#Tems vs occurances
+#Terms vs occurances
 inspect(tdm)
 ################################################################################################################
 windowspositiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/hololens2.csv")
