@@ -62,7 +62,6 @@ freq(office365positiveTalks )
 df <- data.frame(V1 = office365positiveTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
-
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
 
