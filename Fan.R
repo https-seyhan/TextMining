@@ -408,7 +408,6 @@ tdm <- TermDocumentMatrix(mycorpus)
 inspect(tdm)
 
 #####################################
-
 #Windows Negative Talkers
 windowsnegativeUsers <- windowsnegative$body.username
 summary(windowsnegativeUsers)
