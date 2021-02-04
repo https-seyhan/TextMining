@@ -431,7 +431,6 @@ wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
 
-
 barplot(d.users[1:10,]$freq, las = 2, names.arg = d.users[1:10,]$word,
         col ="lightblue", main ="Most frequent words",
         ylab = "Windows Negative Users")
