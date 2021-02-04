@@ -454,7 +454,6 @@ freq(windowsnegativeTalks )
 df <- data.frame(V1 = windowsnegativeTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
-
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
 post.corpus <- tm_map(post.corpus , removeWords, c("and","also", "you", "would", "youll", "your", "youre", "https",
