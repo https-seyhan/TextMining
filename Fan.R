@@ -214,7 +214,6 @@ summary(office365negativeTalks)
 freq(office365negativeTalks )
 
 df <- data.frame(V1 = office365negativeTalks)
-
 mycorpus <- Corpus(DataframeSource(df))
 
 tdm <- TermDocumentMatrix(mycorpus)
