@@ -459,7 +459,6 @@ post.corpus <- Corpus(DataframeSource(df))
 
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
-
 post.corpus <- tm_map(post.corpus , removeWords, c("and","also", "you", "would", "youll", "your", "youre", "https",
                                                    "httpst","httpstc","httpstco", "come", "this", "the", "will", "are", "that", "with", "amp", "all", "from", "have",
                                                    "ampamp","please", "our","more", "for", "you", "wont", "within", "without", "with", "were", "which", "office", "any",
