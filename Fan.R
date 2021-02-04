@@ -298,7 +298,6 @@ summary(surfacenegativeTalks)
 freq(surfacenegativeTalks )
 
 df <- data.frame(V1 = surfacenegativeTalks)
-
 post.corpus <- Corpus(DataframeSource(df))
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
