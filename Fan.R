@@ -400,7 +400,7 @@ tdm <- TermDocumentMatrix(mycorpus)
 inspect(tdm)
 
 #####################################
-#Windows Negative Talkers
+#Identify Negative Comments
 windowsnegativeUsers <- windowsnegative$body.username
 summary(windowsnegativeUsers)
 #freq(windowsnegativeUsers)
