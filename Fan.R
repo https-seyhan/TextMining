@@ -40,7 +40,6 @@ users.corpus <- tm_map(users.corpus , removeWords, c("and","also", "you", "would
 
 users.tdm <- TermDocumentMatrix(users.corpus)
 
-
 matrix.users.tdm <- as.matrix(users.tdm)
 summary(matrix.users.tdm)
 
