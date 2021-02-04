@@ -518,7 +518,6 @@ df <- data.frame(V1 = posts)
 
 
 mycorpus <- Corpus(DataframeSource(df))
-
 mycorpus <- tm_map(mycorpus, removePunctuation)
 mycorpus <- tm_map(mycorpus, removeNumbers)
 mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "your", "youre", "https",
