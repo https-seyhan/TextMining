@@ -488,7 +488,6 @@ inspect(tdm)
 
 #Comments Analysis
 ########################################################################################################
-
 office365positiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/office365positiveComments.csv")
 posts <- office365positiveposts$body.post
 df <- data.frame(V1 = posts)
