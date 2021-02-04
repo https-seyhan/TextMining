@@ -217,7 +217,7 @@ mycorpus <- Corpus(DataframeSource(df))
 
 tdm <- TermDocumentMatrix(mycorpus)
 
-#Tems vs occurances
+#Terms vs occurances
 inspect(tdm)
 
 #####################################
