@@ -356,7 +356,6 @@ wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
           colors=brewer.pal(8, "Dark2"))
 
 ####Windows Positive Posts 
-
 windowspositiveTalks <- windowspositive$body.post
 summary(windowspositiveTalks)
 freq(windowspositiveTalks )
