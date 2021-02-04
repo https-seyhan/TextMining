@@ -292,9 +292,6 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
 #Tems vs occurances
 inspect(tdm)
 
-
-
-
 ####Surface Negative Posts 
 surfacenegativeTalks <- surfacenegative$body.post
 summary(surfacenegativeTalks)
