@@ -139,8 +139,6 @@ wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
 
-
-
 ####Office365 Negative Posts 
 office365negativeTalks <- office365negative$body.post
 summary(office365negativeTalks)
