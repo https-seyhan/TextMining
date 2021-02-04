@@ -478,7 +478,6 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
 
-
 mycorpus <- Corpus(DataframeSource(df))
 
 tdm <- TermDocumentMatrix(mycorpus)
