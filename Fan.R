@@ -339,7 +339,6 @@ summary(windowspositiveUsers)
 #freq(windowspositiveUsers)
 
 users.df <- data.frame(V1 = windowspositiveUsers)
-
 users.corpus <- Corpus(DataframeSource(users.df))
 
 users.corpus <- tm_map(users.corpus, removePunctuation)
