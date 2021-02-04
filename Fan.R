@@ -219,7 +219,6 @@ tdm <- TermDocumentMatrix(mycorpus)
 inspect(tdm)
 
 #####################################
-
 #Surface Negative Talkers
 surfacenegativeUsers <- surfacenegative$body.username
 summary(surfacenegativeUsers)
