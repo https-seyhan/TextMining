@@ -147,7 +147,6 @@ summary(office365negativeTalks)
 df <- data.frame(V1 = office365negativeTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
-
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
 post.corpus <- tm_map(post.corpus , removeWords, c("and","also", "you", "would", "youll", "your", "youre", "https",
