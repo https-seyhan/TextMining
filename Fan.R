@@ -182,7 +182,6 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
 inspect(tdm)
 
 #####################################
-
 #Surface Positive Talkers
 surfacepositiveUsers <- surfacepositive$body.username
 summary(surfacepositiveUsers)
