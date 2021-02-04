@@ -488,7 +488,7 @@ mycorpus <- Corpus(DataframeSource(df))
 tdm <- TermDocumentMatrix(mycorpus)
 
 findFreqTerms(tdm, 20, 94)
-#Tems vs occurances
+#Terms vs occurances
 inspect(tdm)
 
 #Comments Analysis
