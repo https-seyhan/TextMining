@@ -370,7 +370,6 @@ freq(windowspositiveTalks )
 df <- data.frame(V1 = windowspositiveTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
-
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
 
