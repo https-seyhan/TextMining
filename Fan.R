@@ -451,7 +451,6 @@ post.corpus <- tm_map(post.corpus , removeWords, c("and","also", "you", "would",
                                                    "didnt", "back", "her", "why", "can", "the", "just", "for", "most",
                                                    "windows", "had", "microsoft"))
 post.tdm <- TermDocumentMatrix(post.corpus)
-
 matrix.post.tdm <- as.matrix(post.tdm)
 summary(matrix.post.tdm)
 
