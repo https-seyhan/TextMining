@@ -326,7 +326,7 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
 inspect(tdm)
 
 #####################################
-#Windows Positive Talkers
+#Identify Positive Comments
 windowspositiveUsers <- windowspositive$body.username
 summary(windowspositiveUsers)
 #freq(windowspositiveUsers)
