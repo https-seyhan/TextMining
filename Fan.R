@@ -435,7 +435,6 @@ barplot(d.users[1:10,]$freq, las = 2, names.arg = d.users[1:10,]$word,
         ylab = "Windows Negative Users")
 
 ####Windows Negative Posts 
-
 windowsnegativeTalks <- windowsnegative$body.post
 summary(windowsnegativeTalks)
 freq(windowsnegativeTalks )
