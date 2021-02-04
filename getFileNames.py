@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
 @author: saul
 """
 # This code get each file names and their extentions in a given folder.
