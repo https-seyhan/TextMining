@@ -524,7 +524,6 @@ findFreqTerms(tdm, 2, 1000)
 inspect(tdm)
 
 ########################################################################################################
-
 windowspositiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/WindowsPositiveComments.csv")
 posts <- office365positiveposts$body.post
 
