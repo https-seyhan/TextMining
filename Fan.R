@@ -534,7 +534,6 @@ windowspositiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/W
 
 posts <- office365positiveposts$body.post
 
-
 df <- data.frame(V1 = posts)
 
 
