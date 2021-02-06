@@ -571,8 +571,6 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
 
-
-
 ##AZURE
 
 azure<- read.csv("~/pythontut/Dashboard/MS Commercial Report/ms365.csv", comment.char="#")
