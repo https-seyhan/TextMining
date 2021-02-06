@@ -544,8 +544,7 @@ mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "y
 corpus <- Corpus(VectorSource(mycorpus))
 tdm <- TermDocumentMatrix(corpus)
 
-#tdm <- as.matrix(tdm)
-colnames(tdm) 
+
 
 freq(tdm$dimnames$Terms)
 findFreqTerms(tdm, 10,80)
