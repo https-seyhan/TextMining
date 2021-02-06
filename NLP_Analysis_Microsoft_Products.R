@@ -585,7 +585,6 @@ View(azure)
 azureTalks <- azure$Post
 summary(azureTalks)
 
-
 df <- data.frame(V1 = azureTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
