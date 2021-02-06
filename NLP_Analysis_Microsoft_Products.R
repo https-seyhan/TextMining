@@ -548,7 +548,6 @@ freq_terms(findFreqTerms(tdm, 10,80))
 freq(findFreqTerms(tdm, 30,80))
 freq_terms(findFreqTerms(tdm, 30,80))
 
-
 #Terms vs occurances
 inspect(tdm)
 
