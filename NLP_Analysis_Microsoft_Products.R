@@ -541,7 +541,6 @@ mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "y
                                              "httpst","httpstc","httpstco", "come", "this", "the", "will", "are", "that", "with", "amp", "all", "from", "have",
                                              "ampamp","please", "our","more", "for", "you", "wont", "within", "without", "with", "were", "which", "office", "any",
                                              "fuck", "fucking", "and", "was", "didnt", "can", "why", "and"))
-
 corpus <- Corpus(VectorSource(mycorpus))
 
 tdm <- TermDocumentMatrix(corpus)
