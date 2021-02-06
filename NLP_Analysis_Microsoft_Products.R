@@ -581,7 +581,6 @@ summary(azureTalks)
 df <- data.frame(V1 = azureTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
-
 post.corpus <- tm_map(post.corpus, removePunctuation)
 post.corpus <- tm_map(post.corpus, removeNumbers)
 
