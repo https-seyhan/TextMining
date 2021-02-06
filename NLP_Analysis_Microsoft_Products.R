@@ -474,7 +474,6 @@ tdm <- TermDocumentMatrix(mycorpus)
 findFreqTerms(tdm, 20, 94)
 #Terms vs occurances
 inspect(tdm)
-
 #Comments Analysis
 ########################################################################################################
 office365positiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/office365positiveComments.csv")
@@ -543,8 +542,6 @@ mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "y
                                              "fuck", "fucking", "and", "was", "didnt", "can", "why", "and"))
 corpus <- Corpus(VectorSource(mycorpus))
 tdm <- TermDocumentMatrix(corpus)
-
-
 
 freq(tdm$dimnames$Terms)
 findFreqTerms(tdm, 10,80)
