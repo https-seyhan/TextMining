@@ -506,7 +506,6 @@ mycorpus <- tm_map(mycorpus , removeWords, c("also", "you", "would", "youll", "y
                                              "ampamp","please", "our","more", "for", "you", "wont", "within", "without", "with", "were", "which", "office", "any",
                                              "fuck", "fucking"))
 tdm <- TermDocumentMatrix(mycorpus)
-
 findFreqTerms(tdm, 2, 1000)
 #Terms vs occurances
 inspect(tdm)
