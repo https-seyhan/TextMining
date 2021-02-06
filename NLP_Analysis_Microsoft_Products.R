@@ -534,7 +534,6 @@ posts <- windowspositiveposts$Post
 summary(posts)
 
 df <- data.frame(V1 = posts)
-
 mycorpus <- Corpus(DataframeSource(df))
 mycorpus <- tm_map(mycorpus, removePunctuation)
 mycorpus <- tm_map(mycorpus, removeNumbers)
