@@ -19,7 +19,6 @@ tesseract_cmd = 'tesseract'
 
 os.chdir('/home/saul/pythontraining/NLP')
 
-
 def convertImageString():
     a = PI.open("receipt_preview.jpg")
     #print(image_to_string(a))
