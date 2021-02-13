@@ -13,6 +13,7 @@ import spacy # NLP framework
 import PyPDF2
 from os import listdir
 from os.path import isfile, join
+
 os.chdir('/home/saul/pythontraining/NLP')
 receipt_data = {} # Dictionary of receipts
 tesseract_cmd = 'tesseract'
