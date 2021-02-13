@@ -38,7 +38,6 @@ def NLPWork():
             feature_names = vec.get_feature_names()
             print("Number of features: {}".format(len(feature_names)))
             print("Feature names:\n{}".format(feature_names))
-            
             bag_of_words2 = cv.transform([receipt_data[x]])
             print("bag_of_words2: {}".format(repr(bag_of_words2)))
         
