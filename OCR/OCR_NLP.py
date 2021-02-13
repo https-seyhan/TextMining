@@ -4,7 +4,6 @@
 @author: saul
 """
 # Extact text from images and then perform NLP on extracted text
-
 import os
 from PIL import Image as PI
 from pytesseract import image_to_string # scrap text from images using pytesseract module
