@@ -18,7 +18,6 @@ os.chdir('/home/saul/pythontraining/NLP')
 receipt_data = {} # Dictionary of receipts
 tesseract_cmd = 'tesseract'
 
-
 def convertImageString():
     a = PI.open("receipt_preview.jpg")
     #print(image_to_string(a))
