@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-
 @author: saul
 """
 # Extact text from images and then perform NLP on extracted text
