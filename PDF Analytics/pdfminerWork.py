@@ -10,6 +10,7 @@ import nltk.tokenize
 import PyPDF2
 import os
 os.chdir('/home/saul/royal/royal/spiders/')
+
 # convert pdf file to text
 # then store the text in to a .txt file
 
