@@ -15,6 +15,7 @@ os.chdir('/home/saul/royal/royal/spiders/')
 # then store the text in to a .txt file
 
 def readfiles(firstFile, secondFile):
+    
     pdfdetails = {}
     print("READINNG PDF FILE :",firstFile)
     pdfReader1 = PyPDF2.PdfFileReader(open(firstFile, "rb"))  # PdfFileReader object
