@@ -14,7 +14,6 @@ os.chdir('/home/saul/royal/royal/spiders/')
 # convert pdf file to text
 # then store the text in to a .txt file
 
-
 print("PDFMiner")
 
 def readfiles(firstFile, secondFile):
