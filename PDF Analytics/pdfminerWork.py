@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 import pdfminer
 import nltk
 from nltk.tokenize import sent_tokenize, word_tokenize
