@@ -39,7 +39,6 @@ def readfiles(firstFile, secondFile):
     tokens = word_tokenize(text1)
     
     
-
     with open('firstfile.txt', 'w') as f:
         f.write(text1)
 
