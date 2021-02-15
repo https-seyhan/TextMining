@@ -38,7 +38,7 @@ def readfiles(firstFile, secondFile):
         text1 += pageObj.extractText()
     tokens = word_tokenize(text1)
     
-    print(tokens)
+    
 
     with open('firstfile.txt', 'w') as f:
         f.write(text1)
