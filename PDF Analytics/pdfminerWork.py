@@ -48,8 +48,7 @@ def readfiles(firstFile, secondFile):
 
     # for word in pageObj.extractText():  # #if word in keyword:  # print("Page Number : ", count)
     tokens = word_tokenize(text2)
-    print("TEXT ", text2)
-    print(tokens)
+
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
 
