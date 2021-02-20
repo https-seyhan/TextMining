@@ -25,7 +25,7 @@ def readfiles(firstFile, secondFile):
     pdfdetails[firstFile] = pdfReader1.numPages
     pdfdetails[secondFile] = pdfReader2.numPages
 
-    print(pdfdetails)
+    
 
     num_pages = pdfReader1.numPages
     count = 0
