@@ -70,7 +70,6 @@ def readpdfFile(secondFile):
     tokens = word_tokenize(text2)
     wordtokens = sent_tokenize(text2)
     
-
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
 
