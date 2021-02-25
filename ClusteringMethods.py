@@ -36,7 +36,6 @@ def euclidian(rating1, rating2):
 		return -1
 
 def manhattan(rating1, rating2):
-
 	distance = 0
 	total = 0
 	for key in rating1:
