@@ -7,8 +7,7 @@
 import os 
 import glob
 import os
-from PIL import Image as PI
-from pytesseract import image_to_string
+
 import pytesseract
 import pandas as pd 
 
@@ -16,6 +15,8 @@ import pandas as pd
 import PyPDF2
 from os import listdir
 from os.path import isfile, join
+from PIL import Image as PI
+from pytesseract import image_to_string
 
 tesseract_cmd = 'tesseract'
 data_list = [['']]
