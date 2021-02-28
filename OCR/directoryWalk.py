@@ -9,8 +9,6 @@ import glob
 import os
 import pytesseract
 import pandas as pd 
-
-
 import PyPDF2
 from os import listdir
 from os.path import isfile, join
