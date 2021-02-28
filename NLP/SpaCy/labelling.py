@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 from __future__ import unicode_literals, print_function
+import plac
+import spacy
 """
 
 @author: saul
@@ -16,8 +18,7 @@ Last tested with: v2.1.0
 """
 
 
-import plac
-import spacy
+
 
 
 TEXTS = [
