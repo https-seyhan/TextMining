@@ -6,7 +6,6 @@
 
 import os 
 import glob
-
 import os
 from PIL import Image as PI
 from pytesseract import image_to_string
