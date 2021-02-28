@@ -6,7 +6,7 @@
 
 import os 
 import glob
-data_list = [['']]
+
 import os
 from PIL import Image as PI
 from pytesseract import image_to_string
@@ -19,7 +19,7 @@ from os import listdir
 from os.path import isfile, join
 
 tesseract_cmd = 'tesseract'
-
+data_list = [['']]
 dirpath = '/home/saul/anaconda3/' 
 #dirpath = '/home/saul/pythontraining/'  
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
