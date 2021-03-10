@@ -2,9 +2,10 @@
 import PyPDF2
 import os
 import glob
+from tika import parser
 pageObj.extractText()
 
-from tika import parser
+
 os.chdir('/home/saul/pythontraining/NLP')
 print(glob.glob("*.pdf"))
 
