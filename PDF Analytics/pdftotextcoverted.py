@@ -4,8 +4,6 @@ import os
 import glob
 from tika import parser
 pageObj.extractText()
-
-
 os.chdir('/home/saul/pythontraining/NLP')
 print(glob.glob("*.pdf"))
 
