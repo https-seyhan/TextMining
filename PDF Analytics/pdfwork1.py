@@ -5,8 +5,9 @@ Created on Sat Dec 15 19:37:26 2018
 
 @author: saul
 """
-from PIL import Image, ImageChops
+
 import os,time,PythonMagick,subprocess,shutil
+from PIL import Image, ImageChops
 from optparse import OptionParser
 import os
 
