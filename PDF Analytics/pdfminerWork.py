@@ -65,7 +65,6 @@ def readpdfFile(secondFile):
     # for word in pageObj.extractText():  # #if word in keyword:  # print("Page Number : ", count)
     tokens = word_tokenize(text2)
     wordtokens = sent_tokenize(text2)
-    
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
 
