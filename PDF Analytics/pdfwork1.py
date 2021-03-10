@@ -69,9 +69,6 @@ def get_pdf_diff(pdf1, cleanup=True):
 #        print('Check FAILED: There are an unequal number of jpgs created from the pdf generated from pdf2 and pdf1')
 #        print('Total pages in image2 : %d'%len(pdf2_list))
 #        print('Total pages in image1: %d'%len(pdf1_list))
-#        
-#        
-#        
 #        print('ERROR: Skipping image comparison between %s and %s'%(self.pdf1,self.pdf2))
 #
 #    if cleanup:
