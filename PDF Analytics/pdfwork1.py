@@ -28,7 +28,6 @@ def get_image_list_from_pdf(pdf_file):
     return image_list
 
 def call_convert(src,dest):
-    
     "Call convert to convert pdf to jpg"
     print('About to call convert on %s'%src)
     try:
