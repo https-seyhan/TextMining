@@ -3,14 +3,14 @@
 #import pdfminer.six
 #import pdfminer3k
 #import pdfminer
+import os
+import sys, getopt
 from io import StringIO
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 #import pdfminer.six
 from pdfminer.pdfpage import PDFPage
-import os
-import sys, getopt
 
 os.chdir('/home/saul/pdfwork')
 path = 'sample.pdf'
