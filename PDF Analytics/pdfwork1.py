@@ -45,7 +45,7 @@ def get_pdf_diff(pdf1, cleanup=True):
 
     #If diff directory already does exist - delete it 
     #Easier to simply nuke the folder and create it again than to check if its empty
-#    diff_image_dir = self.download_dir + os.sep+'diff_images'
+#    diff_image_dir = self.download_dir + os.sep+'diff_images
 #    if os.path.exists(diff_image_dir):
 #        print('diff_images directory exists ... about to nuke it')
 #        shutil.rmtree(diff_image_dir)
