@@ -32,7 +32,6 @@ def convertImageString(folders):
     for folder in range(len(folders)):
         
         image_to_text = [['', '','']]
-        
         print("Folder ", folder)
         evidencepath = dirpath + folders[folder] + '/'
         
