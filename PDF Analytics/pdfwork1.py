@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 import os,time,PythonMagick,subprocess,shutil
 import os
 from PIL import Image, ImageChops
