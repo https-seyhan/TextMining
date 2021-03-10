@@ -7,9 +7,9 @@ Created on Sat Dec 15 19:37:26 2018
 """
 
 import os,time,PythonMagick,subprocess,shutil
+import os
 from PIL import Image, ImageChops
 from optparse import OptionParser
-import os
 
 
 def get_image_list_from_pdf(pdf_file):
