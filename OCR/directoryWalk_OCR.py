@@ -116,9 +116,5 @@ def getSubDirs(dir):
     
 
 if __name__ == '__main__':
-    print("Test")
-    #print(dirpath)
-    #list_files(dirpath)
-    #print(list_files(dirpath))
     getSubDirs(dirpath)
     
