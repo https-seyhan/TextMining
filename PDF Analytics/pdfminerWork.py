@@ -5,9 +5,10 @@
 """
 import pdfminer
 import nltk
-from nltk.tokenize import sent_tokenize, word_tokenize
+
 import nltk.tokenize
 import PyPDF2
+from nltk.tokenize import sent_tokenize, word_tokenize
 import os
 os.chdir('/home/saul/royal/royal/spiders/')
 
