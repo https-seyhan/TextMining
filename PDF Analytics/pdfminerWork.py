@@ -5,7 +5,6 @@
 """
 import pdfminer
 import nltk
-
 import nltk.tokenize
 import PyPDF2
 from nltk.tokenize import sent_tokenize, word_tokenize
