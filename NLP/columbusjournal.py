@@ -57,7 +57,6 @@ def nlpVectorisation(journal, stop_words):
     stop_words.add('one')
     stop_words.add('two')
     stop_words.add('It')
-
     #get sentence token
     sentence_tk = sent_tokenize(journal)
     # remove stopwords
