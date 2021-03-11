@@ -5,7 +5,6 @@
 """
 #GloVe model implementation in Python
 from glove import Corpus, Glove
-
 # creating a corpus object
 corpus = Corpus() 
 
