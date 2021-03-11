@@ -1,6 +1,7 @@
 import os
 import re
 import pandas as pd
+import operator
 #import spacy
 import nltk
 from nltk import sent_tokenize
@@ -11,7 +12,7 @@ from nltk.probability import FreqDist
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from itertools import islice
-import operator
+
 from matplotlib import pyplot as plt
 
 figsize = (1500 / 50, 400 / 50)
