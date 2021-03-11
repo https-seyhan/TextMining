@@ -1,5 +1,5 @@
 #Keras implementation of Deeplabv3+
-pip3 install pyenchant
+#pip3 install pyenchant
 import enchant
 d = enchant.Dict("en_US")
 d.check("Hello")
