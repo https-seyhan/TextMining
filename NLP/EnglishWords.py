@@ -10,7 +10,7 @@ d.suggest("aricle")
 
 
 
-inflect
+
 
 from nltk.corpus import wordnet
 
