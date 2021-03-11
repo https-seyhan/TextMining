@@ -8,9 +8,3 @@ d.check("Helo")
 #get firts on on the list as the closest suggested word
 d.suggest("aricle")
 
-from nltk.corpus import wordnet
-
-for token in doc:
-    print(token.text in nlp.vocab)
-    print(token.orth in nlp.vocab)
-
