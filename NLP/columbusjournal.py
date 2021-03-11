@@ -12,7 +12,6 @@ from nltk.probability import FreqDist
 from nltk.stem.wordnet import WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
 from itertools import islice
-
 from matplotlib import pyplot as plt
 
 figsize = (1500 / 50, 400 / 50)
