@@ -5,12 +5,13 @@
 """
 # Extact text from images and then perform NLP on extracted text
 import os
+import spacy # NLP framework 
+import PyPDF2
 from PIL import Image as PI
 from pytesseract import image_to_string # scrap text from images using pytesseract module
 import pytesseract
 from sklearn.feature_extraction.text import CountVectorizer # Convert text document to a matrix of token counts
-import spacy # NLP framework 
-import PyPDF2
+
 from os import listdir
 from os.path import isfile, join
 
