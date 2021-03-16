@@ -11,7 +11,6 @@ import pytesseract
 from PIL import Image as PI
 from pytesseract import image_to_string # scrap text from images using pytesseract module
 from sklearn.feature_extraction.text import CountVectorizer # Convert text document to a matrix of token counts
-
 from os import listdir
 from os.path import isfile, join
 
