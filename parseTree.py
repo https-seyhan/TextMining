@@ -41,6 +41,5 @@ def main(model="en_core_web_sm"):
     # `.left_edge` and `.right_edge` of those tokens, and use it to calculate
     # a span.
 
-
 if __name__ == "__main__":
     plac.call(main)
