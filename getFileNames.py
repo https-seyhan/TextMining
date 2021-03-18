@@ -7,9 +7,10 @@
 # The model crawls through the given folder
 
 import pandas as pd
+import os
 from os import listdir
 from os.path import isfile, join
-import os
+
 os.chdir('/home/saul/pythontraining')
 
 simple_list=[['','']]
