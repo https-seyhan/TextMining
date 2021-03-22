@@ -50,7 +50,7 @@ def convertImageString(folders):
             
             for img in range(imagelenght):
                 image = image_list[img]
-                #print("Image ", image)
+                
                 #print("Evidence Path ",evidencepath)
                 #a = PI.open(evidencepath.format(image)).convert("RGBA")
                 a = PI.open(image).convert("RGBA")
