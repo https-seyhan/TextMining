@@ -76,7 +76,6 @@ def convertImageString(folders):
     b= image_to_string(a)
     #print(b)
 
-    
     data_list.append([[b]])
     #convert list to dataframe
     bb = pd.DataFrame(data_list, columns=['text'])
