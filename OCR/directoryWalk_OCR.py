@@ -80,7 +80,6 @@ def convertImageString(folders):
     bb = pd.DataFrame(data_list, columns=['text'])
     #bb.to_csv('/home/saul/pythontraining/NLP/imagetotext.csv', sep=',', index=False)
 
-
 def list_files(dir):                                                                                                  
     r = []                                                                                                            
     subdirs = [x[0] for x in os.walk(dir)]                                                                            
