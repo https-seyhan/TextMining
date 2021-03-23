@@ -109,7 +109,6 @@ if __name__ == '__main__':
 	#printpeople(users['Hailey'])
 	#printpeople(users['Veronica'])
 	#print("Manhattan Distance is", manhattan(users['Hailey'], users['Veronica']))
-
 	#print(computeNearestNeigbour('Hailey', users))
 	#recommend('Hailey', users)
 	#computeNearestNeigbour('Angelica', users)
