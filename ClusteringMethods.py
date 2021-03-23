@@ -105,7 +105,7 @@ def pearson(rating1, rating2):
 		return(sum_xy - (sum_x*sum_y)/n) /denominator
 
 if __name__ == '__main__':
-	#main()
+	
 	#printpeople(users['Hailey'])
 	#printpeople(users['Veronica'])
 	#print("Manhattan Distance is", manhattan(users['Hailey'], users['Veronica']))
