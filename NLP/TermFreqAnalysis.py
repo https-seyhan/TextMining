@@ -13,7 +13,6 @@ from wordcloud import WordCloud
 #NLP Analysis of columbus's jurnal
 columbus_pos = open("columbus.txt", "r").read()
 
-#print(columbus_pos)
 
 documents = []
 removelist = ["''"]
