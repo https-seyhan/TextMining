@@ -57,7 +57,6 @@ with open('wordfrequency.csv','w') as csvfile:
 wfreq = nltk.FreqDist(wtokens)
 
 print("Number of unique words in text : ", len(wfreq))  # Number of unique words in text
-
 #print(wfreq.most_common(40) )    # 40 most common words
 
 # Average sentence length, frequency of long words
