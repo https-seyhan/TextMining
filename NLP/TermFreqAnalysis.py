@@ -18,7 +18,6 @@ columbus_pos = open("columbus.txt", "r").read()
 documents = []
 removelist = ["''"]
 
-
 for r in columbus_pos.split('\n'):
     documents.append((r, "pos"))
 
