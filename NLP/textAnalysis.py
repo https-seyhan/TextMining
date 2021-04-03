@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 import re
 text = """Hey diddle diddle, We are all on the fiddle,
           And never get up until noon, We only takr cash, """
