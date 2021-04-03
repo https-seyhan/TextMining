@@ -20,9 +20,7 @@ for r in columbus_pos.split('\n'):
     documents.append((r, "pos"))
 
 stop_words = stopwords.words('english')
-#print(stop_words)
-#print(len(columbus_pos))
-#print(documents)
+
 
 # Slice text in words
 #print(nltk.word_tokenize(columbus_pos))
