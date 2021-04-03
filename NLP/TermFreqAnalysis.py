@@ -62,7 +62,7 @@ with open('wordfrequency.csv','w') as csvfile:
 
 wfreq = nltk.FreqDist(wtokens)
 
-#print(wfreq)
+
 
 print("Number of unique words in text : ", len(wfreq))  # Number of unique words in text
 
