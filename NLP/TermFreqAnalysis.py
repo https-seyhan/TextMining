@@ -1,6 +1,6 @@
 import os
 import pandas as pd
-from collections import Counter
+
 import csv
 import nltk
 from nltk.corpus import stopwords
@@ -8,6 +8,7 @@ import random
 import string
 from wordcloud import WordCloud
 import matplotlib.pyplot as plt
+from collections import Counter
 #from tkinter import *
 
 #NLP Analysis of columbus's jurnal
