@@ -4,10 +4,11 @@ import csv
 import nltk
 import random
 import string
-from wordcloud import WordCloud
+
 import matplotlib.pyplot as plt
 from collections import Counter
 from nltk.corpus import stopwords
+from wordcloud import WordCloud
 #from tkinter import *
 
 #NLP Analysis of columbus's jurnal
