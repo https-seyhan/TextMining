@@ -18,7 +18,6 @@ print(len(report.columns))
 print(report.columns)
 
 #clf = MultinomialNB()
-
 X = report['Description:'].values
 print(X[0])
 y= report['Warning:']
