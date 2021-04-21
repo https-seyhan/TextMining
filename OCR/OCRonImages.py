@@ -27,7 +27,6 @@ for file in onlyfiles:
     fileReader = PyPDF2.PdfFileReader(open(file,'rb')) # read pdf files in the directory
 
     count = 0
-
     while count < 3: # read first 2 pages of the pdf files
         pageObj = fileReader.getPage(count)
         count +=1
