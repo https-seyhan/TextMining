@@ -30,7 +30,6 @@ pattern2 = [{"LOWER": "description"}]
 matcher.add("item", None, pattern1, pattern2)
 matches = matcher(doc)
 word_list = []
-
 #print(matches)
 for match_id, start, end in matches:
     string_id = nlp.vocab.strings[match_id]  # Get string representation
