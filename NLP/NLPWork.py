@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 import pandas as pd
 import os
 from sklearn.feature_extraction.text import CountVectorizer
