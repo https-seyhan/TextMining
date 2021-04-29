@@ -74,7 +74,7 @@ def convertImageString(folders):
     #bb.to_csv('/home/saul/pythontraining/NLP/imagetotext.csv', sep=',', index=False)
 
 def list_files(dir):                                                                                                  
-    r = []                                                                                                            
+    r = []                                                                                                           
     subdirs = [x[0] for x in os.walk(dir)]                                                                            
     for subdir in subdirs:                                                                                            
         files = next(os.walk(subdir))[2]                                                                             
