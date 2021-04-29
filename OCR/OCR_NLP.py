@@ -49,7 +49,7 @@ def spaCYWork(doc):
     #python3 -m spacy download en
     en_nlp = spacy.load('en')
     doc_spacy=en_nlp(doc)
-     
+    
 if __name__ == '__main__':
     convertImageString()
 
