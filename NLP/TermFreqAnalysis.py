@@ -35,7 +35,6 @@ words = [w for w in removed if not w in stop_words]
 #print(words)
 
 #print(nltk.FreqDist(words))
-
 wordfreq = [w for w in nltk.FreqDist(removed)]
 #for w in wordfreq:
     #print(w, len(w), nltk.FreqDist(w))
