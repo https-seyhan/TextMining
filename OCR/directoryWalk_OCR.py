@@ -81,7 +81,7 @@ def list_files(dir):
         if (len(files) > 0):                                                                                          
             for file in files:                                                                                        
                 r.append(subdir + "/" + file)                                                                         
-    return r 
+    return r
 
 def getSubDirs(dir):
     dirs = [x[1] for x in os.walk(dir)] 
