@@ -93,7 +93,7 @@ def getSubDirs(dir):
     #print(dirs)
     #print("Direcrories ", dirs[0])
     convertImageString(dirs[0])
-    
+   
 if __name__ == '__main__':
     getSubDirs(dirpath)
     
