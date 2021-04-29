@@ -24,7 +24,7 @@ def convertImageString():
     receipt_data['receipt'] = image_to_string(a)
     for x in receipt_data:
         spaCYWork([receipt_data[x]])
-  
+ 
 def NLPWork():
         vec = CountVectorizer()
         vec.fit(receipt_data)
