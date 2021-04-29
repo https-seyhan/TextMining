@@ -9,7 +9,7 @@ The NLP I and V scraping of the yextThree groups :
 3) No Match
 
 calculate match accuracy:
-match accuracy per text is between 0% and 100% and calculated as below
+Match accuracy per text is between 0% and 100% and calculated as below
 
 Accuracy = (Total number of matched words / Total number words of the actual item) *100
 
