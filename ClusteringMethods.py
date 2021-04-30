@@ -85,7 +85,6 @@ def pearson(rating1, rating2):
 	sum_x2 = 0
 	sum_y2 = 0
 	n = 0
-
 	for key in rating1:
 		if key in rating2:
 			n += 1
