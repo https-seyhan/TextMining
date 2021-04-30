@@ -65,4 +65,3 @@ def convert(fname, pages=None):
 if __name__ == '__main__':
      #convert_pdf_to_txt(path)
      convert('sample.pdf')
-    
