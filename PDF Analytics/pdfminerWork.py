@@ -19,7 +19,6 @@ def readfiles(firstFile, secondFile):
     print("READINNG PDF FILE :",firstFile)
     pdfReader1 = PyPDF2.PdfFileReader(open(firstFile, "rb"))  # PdfFileReader object
     pdfReader2 = PyPDF2.PdfFileReader(open(secondFile, "rb"))  # PdfFileReader object
-
     print("PDF Reader :", pdfReader1.numPages)
     pdfdetails[firstFile] = pdfReader1.numPages
     pdfdetails[secondFile] = pdfReader2.numPages
