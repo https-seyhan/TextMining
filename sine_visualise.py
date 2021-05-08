@@ -9,7 +9,6 @@ from matplotlib.pylab import rcParams
 def visualise():
 	print('Test')
 	%matplotlib inline
-
 rcParams['figure.figsize'] = 12, 10
 
 #Define input array with angles from 60deg to 300deg converted to radians
