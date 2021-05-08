@@ -4,7 +4,6 @@ import random
 #import tkinter
 import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
-
 # Sine function visualisation
 def visualise():
 	print('Test')
