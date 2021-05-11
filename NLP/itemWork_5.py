@@ -20,7 +20,7 @@ for w in customize_stop_words:
 
 def getItem(receipt):
      
- 
+
     text = """
     "Net income was $9.4 million compared to the prior year of $2.7 million.",
     "Revenue exceeded twelve billion dollars, with a loss of $1b. run",
