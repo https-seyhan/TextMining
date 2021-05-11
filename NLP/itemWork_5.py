@@ -41,7 +41,6 @@ def getItem(receipt):
 #print("Tags", [(t.text, t.tag_, t.pos_) for t in doc],'\n\n')
 #print("Tokens", [t.text for t in doc],'\n')
  
-
 #remove stop wods and verbs
     cleantext = [t.text for t in doc if not t.is_stop and t.pos_ == 'NOUN']
     print("Clean Text ", cleantext) 
