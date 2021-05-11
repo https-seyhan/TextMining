@@ -4,11 +4,6 @@
 @author: saul
 """
 
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[69]:
-
 
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
