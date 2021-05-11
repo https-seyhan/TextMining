@@ -25,7 +25,6 @@ def getItem(receipt):
     """
     text = receipt.strip("n\n")
     text = receipt.strip("\\n")
-
     text = re.sub(r"[\'?'\n\'[]:]","",text, flags=re.I)
     #text = re.sub("\n","", text)
     #text.replace(r"['\n']", '')
