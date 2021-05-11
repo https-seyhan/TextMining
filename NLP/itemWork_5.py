@@ -35,7 +35,6 @@ def getItem(receipt):
     #print("Text :", text)
     doc = nlp(text)
 #print("Tokens", [t.text for t in doc])
-
 #Every word in the text is a token
 #print(doc.text[0])
 #print(doc.text[1])
