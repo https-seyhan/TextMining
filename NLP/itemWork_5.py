@@ -32,7 +32,6 @@ def getItem(receipt):
     #text = text.replace('"', '')
     #text = text.replace('\n', '')
     #print (mylist)
-
     #print("Text ", type(text))
     #print("Text :", text)
     doc = nlp(text)
