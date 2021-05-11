@@ -60,6 +60,7 @@ def getItem(receipt):
     word_list = []
     word_dict = {}
     print(matches)
+    
     for match_id, start, end in matches:
         string_id = nlp.vocab.strings[match_id]  # Get string representation
         span = cleandoc[start:end]  # The matched span
