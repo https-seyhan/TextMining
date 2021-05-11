@@ -5,7 +5,6 @@
 """
 
 
-
 import plac
 import spacy
 from spacy.matcher import Matcher
