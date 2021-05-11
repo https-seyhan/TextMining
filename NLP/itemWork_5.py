@@ -67,7 +67,6 @@ def getItem(receipt):
         print(start, end, span.text)
         word_dict[span.text] = {} # create dictionary for keyword
         word_dict[span.text][cleandoc[start-1]] = -1
-
     #print(doc[start-1])
         word_list.append(cleandoc[start-1])
     #print(doc[start-2])
