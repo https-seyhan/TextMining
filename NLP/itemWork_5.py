@@ -57,7 +57,6 @@ def getItem(receipt):
     pattern4 = [{"LOWER": "receipt"}]
     matcher.add("item", None, pattern1, pattern2, pattern3, pattern4)
     matches = matcher(cleandoc)
-
     word_list = []
     word_dict = {}
     print(matches)
