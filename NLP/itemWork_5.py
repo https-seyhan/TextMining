@@ -5,8 +5,7 @@
 """
 import plac
 import spacy
-from spacy.matcher import Matcher
-from spacy.tokens import Doc
+
 
 import pandas as pd
 import re
