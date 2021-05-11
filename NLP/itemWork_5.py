@@ -6,7 +6,6 @@
 import plac
 import spacy
 
-
 import pandas as pd
 import re
 from spacy.matcher import Matcher
