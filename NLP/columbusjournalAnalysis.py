@@ -7,7 +7,6 @@ from nltk import word_tokenize
 from nltk.corpus import stopwords
 from nltk.stem import PorterStemmer
 from nltk.probability import FreqDist
-
 from matplotlib import pyplot as plt
 
 figsize = (1500 / 50, 400 / 50)
