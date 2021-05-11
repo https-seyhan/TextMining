@@ -15,7 +15,6 @@ vec = CountVectorizer(min_df =0.001, max_df=0.95) # Convert a collection of text
 report = pd.read_csv('prReports.csv', encoding='utf-8')
 print(len(report.columns))
 print(report.columns)
-
 #clf = MultinomialNB()
 X = report['Description:'].values
 print(X[0])
