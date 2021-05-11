@@ -9,6 +9,7 @@ import pandas as pd
 import re
 from spacy.matcher import Matcher
 from spacy.tokens import Doc
+
 nlp = spacy.load("en_core_web_sm")
 
 customize_stop_words = [
