@@ -77,7 +77,6 @@ def recommend(username, users):
 	recommendations.sort(key = lambda artistTuple: artistTuple[1], reverse = True)
 	print("Recommendation :", recommendations)
 	return recommendations
-
 def pearson(rating1, rating2):
 	sum_xy = 0
 	sum_x = 0
