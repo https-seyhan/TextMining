@@ -94,6 +94,7 @@ class TechCompanyRecognizer(object):
 
 if __name__ == "__main__":
     plac.call(main)
+    
     # Expected output:
     # Pipeline ['tech_companies']
     # Tokens ['Alphabet Inc.', 'is', 'the', 'company', 'behind', 'Google', '.']
