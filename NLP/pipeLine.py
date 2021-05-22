@@ -33,7 +33,6 @@ def main(text="Alphabet Inc. is the company behind Google.", *companies):
     print("Token 1 is_tech_org", doc[1]._.is_tech_org)  # "is" is not
     print("Entities", [(e.text, e.label_) for e in doc.ents])  # all orgs are entities
 
-
 class TechCompanyRecognizer(object):
     """Example of a spaCy v2.0 pipeline component that sets entity annotations
     based on list of single or multiple-word company names. Companies are
