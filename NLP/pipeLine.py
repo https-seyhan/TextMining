@@ -5,7 +5,6 @@
 """
 
 from __future__ import unicode_literals, print_function
-
 import plac
 from spacy.lang.en import English
 from spacy.matcher import PhraseMatcher
