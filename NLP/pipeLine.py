@@ -92,7 +92,6 @@ class TechCompanyRecognizer(object):
         which is already set in the processing step."""
         return any([t._.get("is_tech_org") for t in tokens])
 
-
 if __name__ == "__main__":
     plac.call(main)
 
