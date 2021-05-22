@@ -24,7 +24,6 @@ def main(text="Alphabet Inc. is the company behind Google.", *companies):
         companies = ["Alphabet Inc.", "Google", "Netflix", "Apple"]  # etc.
     component = TechCompanyRecognizer(nlp, companies)  # initialise component
     nlp.add_pipe(component, last=True)  # add last to the pipeline
-
     doc = nlp(text)
     print("Pipeline", nlp.pipe_names)  # pipeline contains component name
     print("Tokens", [t.text for t in doc])  # company names from the list are merged
