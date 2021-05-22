@@ -10,7 +10,6 @@ from spacy.lang.en import English
 from spacy.matcher import PhraseMatcher
 from spacy.tokens import Doc, Span, Token
 
-
 @plac.annotations(
     text=("Text to process", "positional", None, str),
     companies=("Names of technology companies", "positional", None, str),
