@@ -39,7 +39,6 @@ class TechCompanyRecognizer(object):
     labelled as ORG and their spans are merged into one token. Additionally,
     ._.has_tech_org and ._.is_tech_org is set on the Doc/Span and Token
     respectively."""
-
     name = "tech_companies"  # component name, will show up in the pipeline
 
     def __init__(self, nlp, companies=tuple(), label="ORG"):
