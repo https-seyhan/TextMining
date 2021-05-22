@@ -15,6 +15,7 @@ from spacy.tokens import Doc, Span, Token
     text=("Text to process", "positional", None, str),
     companies=("Names of technology companies", "positional", None, str),
 )
+
 def main(text="Alphabet Inc. is the company behind Google.", *companies):
     # For simplicity, we start off with only the blank English Language class
     # and no model or pre-defined pipeline loaded.
