@@ -60,7 +60,7 @@ class TechCompanyRecognizer(object):
         # the contained tokens is set to is_tech_org == True.
         Doc.set_extension("has_tech_org", getter=self.has_tech_org)
         Span.set_extension("has_tech_org", getter=self.has_tech_org)
-
+        
     def __call__(self, doc):
         """Apply the pipeline component on a Doc object and modify it if matches
         are found. Return the Doc, so it can be processed by the next component
