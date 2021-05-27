@@ -62,7 +62,7 @@ def readpdfFile(secondFile):
     wordtokens = sent_tokenize(text2)
     with open('secondfile.txt', 'w') as f:
         f.write(text2)
-
+        
 if __name__ == "__main__":
     #readfiles('EXHIBIT-6.124.8.pdf', 'EXHIBIT-6.126.24.26.pdf')
     readpdfFile('EXHIBIT-6.126.24.26.pdf')
