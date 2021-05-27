@@ -16,7 +16,7 @@ os.chdir('/home/saul/pdfwork')
 path = 'sample.pdf'
 
 def convert_pdf_to_txt(path):
- 
+
     rsrcmgr = PDFResourceManager()
     retstr = StringIO()
     codec = 'utf-8'
