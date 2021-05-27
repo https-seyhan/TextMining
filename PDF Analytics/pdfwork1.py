@@ -41,7 +41,6 @@ def get_pdf_diff(pdf1, cleanup=True):
     #Get the list of images using get_image_list_from_pdf which inturn calls convert on a given pdf  
     pdf1_list = get_image_list_from_pdf(pdf1)
     #pdf2_list = self.get_image_list_from_pdf(self.pdf2)
-
     #If diff directory already does exist - delete it 
     #Easier to simply nuke the folder and create it again than to check if its empty
 #    diff_image_dir = self.download_dir + os.sep+'diff_images
