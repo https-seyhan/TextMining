@@ -8,7 +8,7 @@
 # Crawl in a directory and obtain each file name of the direcrory
 
 import os
-from PIL import Image as PI # Python image library
+
 from pytesseract import image_to_string
 import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. 
 #That will recognize and “read” the text embedded in images
