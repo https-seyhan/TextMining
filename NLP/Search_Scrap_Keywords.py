@@ -61,7 +61,6 @@ print(word_list)
 #p2 = [{'LOWER': 'quick'}, {'IS_PUNCT': True}, {'LOWER': 'brown'}, {'IS_PUNCT': True}, {'LOWER': 'fox'}]  
 #p3 = [{'LOWER': 'quick'}, {'LOWER': 'brown'}, {'LOWER': 'fox'}]  
 #p4 =  [{'LOWER': 'quick'}, {'LOWER': 'brownfox'}]  
-
 #    p1 looks for the phrase "quickbrownfox"
 #    p2 looks for the phrase "quick-brown-fox"
 #    p3 tries to search for "qucik brown fox"
