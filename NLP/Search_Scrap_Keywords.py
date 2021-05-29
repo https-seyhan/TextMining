@@ -19,7 +19,7 @@ print("Tokens", [t.text for t in doc])
 #Every word in the text is a token
 print(doc.text[0])
 print(doc.text[1])
- print("Tags", [(t.text, t.tag_, t.pos_) for t in doc])
+print("Tags", [(t.text, t.tag_, t.pos_) for t in doc])
  print("Tokens", [t.text for t in doc if not t.is_stop])
  
 #create matcher
