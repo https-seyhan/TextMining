@@ -57,7 +57,7 @@ for match_id, start, end in matches:
     word_list.append(doc[start + 5])
 print(word_list)
  
-   
+  
 #p1 = [{'LOWER': 'quickbrownfox'}]  
 #p2 = [{'LOWER': 'quick'}, {'IS_PUNCT': True}, {'LOWER': 'brown'}, {'IS_PUNCT': True}, {'LOWER': 'fox'}]  
 #p3 = [{'LOWER': 'quick'}, {'LOWER': 'brown'}, {'LOWER': 'fox'}]  
