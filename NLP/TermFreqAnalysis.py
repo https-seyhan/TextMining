@@ -32,7 +32,6 @@ print("Removed : ", removed) # show what is removed
 stop_words = set(stopwords.words('english'))
 words = [w for w in removed if not w in stop_words]
 
-
 #print(nltk.FreqDist(words))
 wordfreq = [w for w in nltk.FreqDist(removed)]
 #for w in wordfreq:
