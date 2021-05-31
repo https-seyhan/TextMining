@@ -1,5 +1,4 @@
 # -*- coding: utf-8 -*-
-
 #import pdfminer.six
 #import pdfminer3k
 #import pdfminer
