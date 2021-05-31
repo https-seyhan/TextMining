@@ -48,6 +48,7 @@ def convert(fname, pages=None):
     converter = TextConverter(manager, output, laparams=LAParams())
     interpreter = PDFPageInterpreter(manager, converter)
     infile = open(fname, 'rb')
+    
     for page in PDFPage.get_pages(infile, pagenums):
         interpreter.process_page(page)
         print(interpreter.process_page(page))
