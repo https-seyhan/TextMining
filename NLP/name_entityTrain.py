@@ -12,7 +12,6 @@ from spacy.util import minibatch, compounding
 
 # new entity label
 LABEL = "ANIMAL"
-
 # training data
 # Note: If you're using an existing model, make sure to mix in examples of
 # other entity types that spaCy correctly recognized before. Otherwise, your
