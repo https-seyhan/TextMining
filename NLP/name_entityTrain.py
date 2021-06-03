@@ -54,7 +54,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
         print("Created blank 'en' model")
     # Add entity recognizer to model if it's not in the pipeline
     # nlp.create_pipe works for built-ins that are registered with spaCy
-  
+ 
     if "ner" not in nlp.pipe_names:
         ner = nlp.create_pipe("ner")
         nlp.add_pipe(ner)
