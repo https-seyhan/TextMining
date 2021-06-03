@@ -10,7 +10,6 @@ from pathlib import Path
 import spacy
 from spacy.util import minibatch, compounding
 
-
 # new entity label
 LABEL = "ANIMAL"
 
