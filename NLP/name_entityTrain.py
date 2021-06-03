@@ -46,7 +46,7 @@ TRAIN_DATA = [
 def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
     """Set up the pipeline and entity recognizer, and train the new entity."""
     random.seed(0)
-   
+  
     if model is not None:
         nlp = spacy.load(model)  # load existing spaCy model
         print("Loaded model '%s'" % model)
