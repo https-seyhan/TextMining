@@ -36,7 +36,6 @@ TRAIN_DATA = [
     ("horses?", {"entities": [(0, 6, LABEL)]}),
 ]
 
-
 @plac.annotations(
     model=("Model name. Defaults to blank 'en' model.", "option", "m", str),
     new_model_name=("New model name for model meta.", "option", "nm", str),
