@@ -103,7 +103,6 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
         nlp.meta["name"] = new_model_name  # rename model
         nlp.to_disk(output_dir)
         print("Saved model to", output_dir)
-
         # test the saved model
         print("Loading from", output_dir)
         nlp2 = spacy.load(output_dir)
