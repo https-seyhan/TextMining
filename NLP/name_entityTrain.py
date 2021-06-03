@@ -92,6 +92,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
     test_text = "Do you like horses?"
     doc = nlp(test_text)
     print("Entities in '%s'" % test_text)
+    
     for ent in doc.ents:
         print(ent.label_, ent.text)
 
