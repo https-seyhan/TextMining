@@ -4,7 +4,6 @@
 # SpaCy NLP classification training
 
 from __future__ import unicode_literals, print_function # To use different versions of Python 
-
 import plac
 import random
 from pathlib import Path
