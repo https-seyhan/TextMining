@@ -103,6 +103,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
         
         if not output_dir.exists():
             output_dir.mkdir()
+            
         nlp.meta["name"] = new_model_name  # rename model
         nlp.to_disk(output_dir)
         print("Saved model to", output_dir)
