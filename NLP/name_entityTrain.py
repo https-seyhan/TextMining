@@ -109,6 +109,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
         # Check the classes have loaded back consistently
         assert nlp2.get_pipe("ner").move_names == move_names
         doc2 = nlp2(test_text)
+        
         for ent in doc2.ents:
             print(ent.label_, ent.text)
 
