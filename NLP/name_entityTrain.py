@@ -42,6 +42,7 @@ TRAIN_DATA = [
     output_dir=("Optional output directory", "option", "o", Path),
     n_iter=("Number of training iterations", "option", "n", int),
 )
+
 def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
     """Set up the pipeline and entity recognizer, and train the new entity."""
     random.seed(0)
