@@ -28,7 +28,6 @@ test_tweets = rbind(
 )
 
 # build dtm
-
 matrix= create_matrix(tweets[,1], language="english", 
                       removeStopwords=FALSE, removeNumbers=TRUE, 
                       stemWords=FALSE) 
