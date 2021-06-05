@@ -37,7 +37,7 @@ def call_convert(src,dest):
     print('Finished calling convert on %s'%src)
 
 def get_pdf_diff(pdf1, cleanup=True):
-  
+ 
     #Create a difference pdf by overlaying the two pdfs and generating an image difference.Returns True if the file matches else returns false
     #Get the list of images using get_image_list_from_pdf which inturn calls convert on a given pdf  
     pdf1_list = get_image_list_from_pdf(pdf1)
