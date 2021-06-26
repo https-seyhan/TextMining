@@ -44,7 +44,7 @@ def readfiles(firstFile, secondFile):
         pageObj2 = pdfReader2.getPage(count)
         count += 1
         text2 += pageObj.extractText()
-       
+      
     # for word in pageObj.extractText():  # #if word in keyword:  # print("Page Number : ", count)
     tokens = word_tokenize(text2)
     with open('secondfile.txt', 'w') as f:
