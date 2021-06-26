@@ -38,6 +38,7 @@ def readfiles(firstFile, secondFile):
     num_pages = pdfReader2.numPages
     count = 0
     text2 = ""
+    
     # The while loop will read each page
     while count < num_pages:
         pageObj2 = pdfReader2.getPage(count)
