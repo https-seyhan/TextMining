@@ -97,4 +97,4 @@ def getSubDirs(dir):
  
 if __name__ == '__main__':
     getSubDirs(dirpath)
-   
+  
