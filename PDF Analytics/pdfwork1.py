@@ -10,6 +10,7 @@ from optparse import OptionParser
 
 def get_image_list_from_pdf(pdf_file):
     #Return a list of images that resulted from running convert on a given pdf
+    
     pdf_name = pdf_file.split(os.sep)[-1].split('.pdf')[0]
     print("PDF Name :", pdf_name)
     #pdf_dir = pdf_file.split(pdf_name)[0]
