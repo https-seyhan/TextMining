@@ -60,7 +60,7 @@ def convert(fname, pages=None):
     #Save pdf file to text
     with open('texted.txt','w') as f:
         f.write(text)   
-    return text 
+    return text
 if __name__ == '__main__':
      #convert_pdf_to_txt(path)
      convert('sample.pdf')
