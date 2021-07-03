@@ -21,6 +21,7 @@ dirpath = '/home/saul/anaconda3/'
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
 outputpath = '/home/saul/pythontraining/NLP/'                                                                                                       
 enlargesize = 1
+
 def convertImageString(folders):    
     image_to_text_list = [['', '', '']]
     image_list = []
