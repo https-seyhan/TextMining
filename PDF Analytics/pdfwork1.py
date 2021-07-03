@@ -50,7 +50,7 @@ def get_pdf_diff(pdf1, cleanup=True):
 #    if os.path.exists(diff_image_dir):
 #        print('diff_images directory exists ... about to nuke it')
 #        shutil.rmtree(diff_image_dir)
-#
+
 #    #Create a new and empty diff directory
 #    os.mkdir(diff_image_dir)
 #    print('diff_images directory created')
