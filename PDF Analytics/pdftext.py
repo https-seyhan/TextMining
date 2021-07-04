@@ -55,7 +55,7 @@ def convert(fname, pages=None):
         print(interpreter.process_page(page))
     print(converter)
  
-    infile.close() 
+    infile.close()
     converter.close()
     text = output.getvalue()
     output.close
