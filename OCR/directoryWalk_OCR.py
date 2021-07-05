@@ -5,7 +5,6 @@
 """
 import os 
 import glob
-
 import pytesseract
 import pandas as pd 
 import PyPDF2
