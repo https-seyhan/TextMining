@@ -16,7 +16,6 @@ text = """Hey diddle diddle, We are all on the fiddle,
 
 #+ 1 or more * = 0 or mpre repetitives
 #print(re.findall(r'n[o|e][a-z]*', text))
-
 #() Indicates grouping \w and letter
 #print(re.findall(r'([\w]+)dd([\w]+)', text))
 
