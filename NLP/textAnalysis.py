@@ -41,4 +41,3 @@ print (square_function(5))
 print (square_lamb(5))
 
 #https://github.com/explosion/spacy-models/releases//tag/en_core_web_md-2.1.0
-
