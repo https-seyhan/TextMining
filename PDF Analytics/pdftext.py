@@ -34,6 +34,7 @@ def convert_pdf_to_txt(path):
                                   check_extractable=True):
         interpreter.process_page(page)
     text = retstr.getvalue()
+    
     fp.close()
     device.close()
     retstr.close()
