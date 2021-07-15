@@ -103,7 +103,7 @@ def wordAnalysis(clean_text):
         wordfreqs.append([freqs[words][0], freqs[words][1]])
         if freqs[words][0] == 'God':
             print(freqs[words][0], freqs[words][1])
-           
+          
     #move words and their freq into dataframe
     topwords = pd.DataFrame(wordfreqs, columns=['Word', 'Freq'])
     topwords.to_csv('ColumbusWordFreq.csv', sep=",", header=True, index=False)
