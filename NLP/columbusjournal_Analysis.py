@@ -66,7 +66,7 @@ def nlpVectorisation(journal, stop_words):
         clean_text.append(' '.join(w for w in nltk.word_tokenize(sent) if w.lower() not in stop_words))
     #clean_text = [sent for sent in sentence_tk if not sent in stop_words]
     clean_text = [x.replace('\n', '') for x in clean_text]
-   
+  
     #tf-idf
     vectorizer = TfidfVectorizer(min_df=1)
     model = vectorizer.fit_transform(clean_text)
