@@ -61,7 +61,7 @@ def nlpVectorisation(journal, stop_words):
     sentence_tk = sent_tokenize(journal)
     # remove stopwords
     clean_text = []
-   
+  
     for sent in sentence_tk:
         clean_text.append(' '.join(w for w in nltk.word_tokenize(sent) if w.lower() not in stop_words))
     #clean_text = [sent for sent in sentence_tk if not sent in stop_words]
