@@ -72,7 +72,7 @@ def nlpVectorisation(journal, stop_words):
     vectorizer = TfidfVectorizer(min_df=1)
     model = vectorizer.fit_transform(clean_text)
     sentenceCount = 0
-  
+ 
     while len(clean_text) > sentenceCount:
         getPurpose(model, clean_text, sentenceCount)
         sentenceCount += 1
