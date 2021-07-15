@@ -96,7 +96,7 @@ def wordAnalysis(clean_text):
     #plot word distribution
     fd = FreqDist(clean_text)
     freqs = fd.most_common()
-   
+  
     for words in range(len(freqs)):
         wordfreqs.append([freqs[words][0], freqs[words][1]])
         if freqs[words][0] == 'God':
