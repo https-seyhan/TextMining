@@ -34,7 +34,7 @@ def euclidian(rating1, rating2):
 		return math.sqrt(distance / total)
 	else:
 		return -1
-	
+
 def manhattan(rating1, rating2):
 	distance = 0
 	total = 0
