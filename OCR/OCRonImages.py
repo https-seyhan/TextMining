@@ -33,4 +33,4 @@ for file in onlyfiles:
 def convertImageString():
     a = PI.open("first.jpg") # sample image
     print(image_to_string(a)) # extract text in the images
-   
+  
