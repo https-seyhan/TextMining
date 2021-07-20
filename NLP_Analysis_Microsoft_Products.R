@@ -106,7 +106,6 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
           colors=brewer.pal(8, "Dark2"))
 #Terms vs occurances
 inspect(tdm)
-
 #####################################
 #office Negative Talkers
 office365negativeUsers <- office365negative$body.username
