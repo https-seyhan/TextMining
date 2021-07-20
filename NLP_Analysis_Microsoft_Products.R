@@ -382,7 +382,6 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
 
 mycorpus <- Corpus(DataframeSource(df))
 tdm <- TermDocumentMatrix(mycorpus)
-
 #Terms vs occurances
 inspect(tdm)
 
