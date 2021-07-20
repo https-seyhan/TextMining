@@ -211,7 +211,6 @@ tdm <- TermDocumentMatrix(mycorpus)
 
 #Terms vs occurances
 inspect(tdm)
-
 #####################################
 #Surface Negative Talkers
 surfacenegativeUsers <- surfacenegative$body.username
