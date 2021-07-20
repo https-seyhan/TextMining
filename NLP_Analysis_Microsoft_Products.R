@@ -140,7 +140,6 @@ wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
 office365negativeTalks <- office365negative$body.post
 summary(office365negativeTalks)
 #freq(office365negativeTalks )
-
 df <- data.frame(V1 = office365negativeTalks)
 
 post.corpus <- Corpus(DataframeSource(df))
