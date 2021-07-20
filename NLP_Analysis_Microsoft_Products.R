@@ -171,6 +171,7 @@ wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
           colors=brewer.pal(8, "Dark2"))
 #Terms vs occurances
 inspect(tdm)
+
 #####################################
 #Surface Positive Talkers
 surfacepositiveUsers <- surfacepositive$body.username
