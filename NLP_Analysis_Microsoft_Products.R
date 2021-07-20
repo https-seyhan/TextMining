@@ -565,7 +565,6 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 ##AZURE
 azure<- read.csv("~/pythontut/Dashboard/MS Commercial Report/ms365.csv", comment.char="#")
 View(azure)
-
 azureTalks <- azure$Post
 summary(azureTalks)
 
