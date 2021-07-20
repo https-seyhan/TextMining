@@ -386,7 +386,6 @@ tdm <- TermDocumentMatrix(mycorpus)
 
 #Terms vs occurances
 inspect(tdm)
-
 #####################################
 #Identify Negative Comments
 windowsnegativeUsers <- windowsnegative$body.username
