@@ -384,6 +384,7 @@ tdm <- TermDocumentMatrix(mycorpus)
 
 #Terms vs occurances
 inspect(tdm)
+
 #####################################
 #Identify Negative Comments
 windowsnegativeUsers <- windowsnegative$body.username
@@ -519,6 +520,7 @@ tdm <- TermDocumentMatrix(mycorpus)
 findFreqTerms(tdm, 2, 1000)
 #Terms vs occurances
 inspect(tdm)
+
 ################################################################################################################
 windowspositiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/hololens2.csv")
 
