@@ -510,7 +510,6 @@ inspect(tdm)
 ########################################################################################################
 windowspositiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/WindowsPositiveComments.csv")
 posts <- office365positiveposts$body.post
-
 df <- data.frame(V1 = posts)
 
 mycorpus <- Corpus(DataframeSource(df))
