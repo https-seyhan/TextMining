@@ -233,7 +233,6 @@ summary(matrix.users.tdm)
 v.users <- sort(rowSums(matrix.users.tdm),decreasing=TRUE)
 d.users <- data.frame(word = names(v.users),freq=v.users)
 head(d.users, 20)
-
 #Word Cloud
 set.seed(1234)
 wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
