@@ -470,6 +470,7 @@ tdm <- TermDocumentMatrix(mycorpus)
 findFreqTerms(tdm, 20, 94)
 #Terms vs occurances
 inspect(tdm)
+
 #Comments Analysis
 ########################################################################################################
 office365positiveposts <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/office365positiveComments.csv")
