@@ -74,5 +74,4 @@ with open('wordfrequency.csv','w') as csvfile:
     writer.writerow(fieldnames)
     for key, value in counts.items():
         print(key, value)
-
         writer.writerow([key] + [value])
