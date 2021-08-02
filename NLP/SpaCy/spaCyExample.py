@@ -61,7 +61,6 @@ labels
 
 # In[18]:
 
-
 items = [x.text for x in article.ents]
 Counter(items).most_common(3)
 
