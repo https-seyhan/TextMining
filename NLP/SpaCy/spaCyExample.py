@@ -48,7 +48,6 @@ Counter(labels)
 
 # In[7]:
 
-
 doc2 = nlp("receipt Quantity")
 
 
