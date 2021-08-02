@@ -17,7 +17,6 @@ print([(X.text, X.label_) for X in doc.ents])
 
 # In[4]:
 
-
 print([(X, X.ent_iob_, X.ent_type_) for X in doc])
 
 
