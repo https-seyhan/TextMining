@@ -14,6 +14,7 @@ os.chdir('/home/saul/pythonWork/NLP/Chapter_5/Data')
 vec = CountVectorizer(min_df =0.001, max_df=0.95) # Convert a collection of text documents to a matrix of token counts
 
 report = pd.read_csv('prReports.csv', encoding='utf-8')
+
 #clf = MultinomialNB()
 X = report['Description:'].values
 print(X[0])
