@@ -53,6 +53,7 @@ counts = Counter(flat_list)
 cnt = 0
 for words in flat_list:
     cnt += 1
+
 print(cnt)
 
 counts.pop('', None) #remove '' key
