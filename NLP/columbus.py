@@ -11,7 +11,6 @@ import itertools
 import operator
 
 
-
 columbus = []
 with open('columbus.txt') as inputfile:
     for line in inputfile:
