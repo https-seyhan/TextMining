@@ -67,7 +67,7 @@ print(sum(counts.values()))
 
 #for key, item in counts.keys():
     #print(item)
-    
+   
 with open('wordfrequency.csv','w') as csvfile:
     fieldnames=['word','count']
     writer=csv.writer(csvfile)
