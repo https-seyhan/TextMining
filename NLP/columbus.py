@@ -59,7 +59,6 @@ counts.pop('', None) #remove '' key
 
 print("First Item", counts.keys())
 print(len(counts))
-
 print(sum(counts.values()))
 
 #for key, item in counts.keys():
