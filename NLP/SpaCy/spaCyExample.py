@@ -22,7 +22,6 @@ print([(X, X.ent_iob_, X.ent_type_) for X in doc])
 
 # In[9]:
 
-
 from bs4 import BeautifulSoup
 import requests
 import re
