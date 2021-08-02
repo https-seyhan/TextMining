@@ -7,4 +7,3 @@ d.check("Helo")
 
 #get firts on on the list as the closest suggested word
 d.suggest("aricle")
-
