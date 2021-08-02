@@ -36,7 +36,6 @@ print(cnt)
 flat_list = [item for sublist in columbus for item in sublist] # convert multiple list to aa single list
 #print(flat_list)
 #print(Counter(flat_list))
-
 singlelist = []
 for i in range(len(flat_list)):
     flat_list2 = flat_list[i].split(" ")
