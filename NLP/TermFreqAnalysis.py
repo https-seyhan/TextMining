@@ -48,7 +48,6 @@ with open('wordfrequency.csv','w') as csvfile:
     fieldnames=['word','length', 'frequency']
     writer=csv.writer(csvfile)
     writer.writerow(fieldnames)
-
     for w, frequency in fdist.most_common(2000):
         print(w, len(w), frequency)
         writer.writerow([w] + [len(w)] + [frequency])
