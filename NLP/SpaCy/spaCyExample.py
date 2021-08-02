@@ -44,7 +44,6 @@ Counter(labels)
 
 doc2 = nlp("receipt Quantity")
 
-
 # In[8]:
 
 print([(X.text, X.label_) for X in doc2.ents])
