@@ -14,7 +14,6 @@ nlp = en_core_web_sm.load()
 doc = nlp('European authorities fined Google tax receipt a record $5.1 billion on Wednesday for abusing its power in the mobile phone market and ordered the company to alter its practices')
 print([(X.text, X.label_) for X in doc.ents])
 
-
 # In[4]:
 print([(X, X.ent_iob_, X.ent_type_) for X in doc])
 
