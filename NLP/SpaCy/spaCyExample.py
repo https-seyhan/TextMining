@@ -56,7 +56,6 @@ print([(X.text, X.label_) for X in article.ents])
 
 # In[17]:
 
-
 labels
 
 
