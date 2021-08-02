@@ -18,7 +18,6 @@ with open('columbus.txt') as inputfile:
 #print(columbus[96])
 
 
-
 counts = Counter(columbus[96])
 #print(counts)
 
