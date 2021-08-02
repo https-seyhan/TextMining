@@ -31,7 +31,6 @@ print(cnt)
 #print(columbus)
 #print(len(columbus))
 #counts = Counter(columbus)
-
 #sum(x.count(x in columbus))
 
 flat_list = [item for sublist in columbus for item in sublist] # convert multiple list to aa single list
