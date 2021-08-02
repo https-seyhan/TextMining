@@ -54,7 +54,7 @@ def convert(fname, pages=None):
     for page in PDFPage.get_pages(infile, pagenums):
         interpreter.process_page(page)
         print(interpreter.process_page(page))
-     
+    
     print(converter)
     infile.close()
     converter.close()
