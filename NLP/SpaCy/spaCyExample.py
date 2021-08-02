@@ -37,7 +37,6 @@ len(article.ents)
 
 
 # In[10]:
-
 labels = [x.label_ for x in article.ents]
 Counter(labels)
 
