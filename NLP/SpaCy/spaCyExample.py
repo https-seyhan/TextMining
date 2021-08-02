@@ -35,7 +35,6 @@ ny_bb = url_to_string('https://www.nytimes.com/2018/08/13/us/politics/peter-strz
 article = nlp(ny_bb)
 len(article.ents)
 
-
 # In[10]:
 labels = [x.label_ for x in article.ents]
 Counter(labels)
