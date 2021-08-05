@@ -2,7 +2,6 @@
 #import pdfminer.six
 #import pdfminer3k
 #import pdfminer
-
 import os
 import sys, getopt
 from io import StringIO
