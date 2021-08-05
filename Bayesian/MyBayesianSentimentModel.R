@@ -27,7 +27,7 @@ test_tweets = rbind(
   c('your song annoying', 'negative')
 )
 
-# build dtm
+# build document term matrix
 matrix= create_matrix(tweets[,1], language="english", 
                       removeStopwords=FALSE, removeNumbers=TRUE, 
                       stemWords=FALSE) 
