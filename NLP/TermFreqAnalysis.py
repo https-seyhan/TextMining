@@ -62,7 +62,6 @@ print("Average sentence length in number of words :", len(wtokens)/sentcount)   
 
 #print([w for w in wfreq if len(w) >= 13])   # all 13+ character words
 long = [w for w in wfreq if len(w) >= 13]
-
 #for w in long :
     #print(w, len(w), wfreq[w])               # long words tend to be less frequent
 
