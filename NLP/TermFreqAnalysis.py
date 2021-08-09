@@ -9,7 +9,6 @@ from collections import Counter
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
 #from tkinter import *
-
 #NLP Analysis of columbus's jurnal
 columbus_pos = open("columbus.txt", "r").read()
 documents = []
