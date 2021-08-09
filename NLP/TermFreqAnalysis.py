@@ -36,7 +36,6 @@ wordfreq = [w for w in nltk.FreqDist(removed)]
 
 #for w in wordfreq:
     #print(w, len(w), nltk.FreqDist(w))
-
 # Calculate frequency distribution
 fdist = nltk.FreqDist(words)
 
