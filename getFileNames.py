@@ -5,7 +5,6 @@
 """
 # This code get each file names and their extentions in a given folder.
 # The model crawls through the given folder
-
 import pandas as pd
 import os
 from os import listdir
