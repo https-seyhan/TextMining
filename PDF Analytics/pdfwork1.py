@@ -19,7 +19,7 @@ def get_image_list_from_pdf(pdf_file):
     #Get all the jpg files after calling convert and store it in a list
     image_list = []
     file_list = os.listdir(pdf_dir)
-   
+  
     for f in file_list:
         if f[-4:]=='.jpg' and pdf_name in f:
             #Make sure the file names of both pdf are not similar
