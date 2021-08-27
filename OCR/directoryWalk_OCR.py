@@ -35,7 +35,7 @@ def convertImageString(folders):
         evidenceFiles = [file for file in glob.glob(evidencepath +"**/*nrm.png", recursive=True)]
         #evidenceFiles  = [x for x in evidenceFiles if x !=[]]
         #print("Evidence Files ", evidenceFiles)
-        #print("Evidence Path ", evidencepath )
+        
         if evidenceFiles != []:
             #print(folders[folder], " ",evidenceFiles, '\n') 
             for image in evidenceFiles:
