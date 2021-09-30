@@ -40,7 +40,7 @@ wordfreq = [w for w in nltk.FreqDist(removed)]
 fdist = nltk.FreqDist(words)
 for w, frequency in fdist.most_common(20000):
     print(w, len(w), frequency)
-
+    
 with open('wordfrequency.csv','w') as csvfile:
     fieldnames=['word','length', 'frequency']
     writer=csv.writer(csvfile)
