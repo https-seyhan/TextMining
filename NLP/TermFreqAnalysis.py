@@ -16,7 +16,7 @@ removelist = ["''"]
 
 for r in columbus_pos.split('\n'):
     documents.append((r, "pos"))
-  
+ 
 stop_words = stopwords.words('english')
 # Slice text in words
 #print(nltk.word_tokenize(columbus_pos))
