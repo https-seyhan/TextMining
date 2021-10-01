@@ -44,7 +44,7 @@ def convertImageString(folders):
                 image_list.append(image)
             imagelenght = len(image_list)
             #print("Image List ", image_list)
-       
+      
             for img in range(imagelenght):
                 image = image_list[img]
                 #print("Evidence Path ",evidencepath)
