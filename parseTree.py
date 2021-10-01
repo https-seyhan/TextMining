@@ -28,7 +28,7 @@ def main(model="en_core_web_sm"):
     # instead of a generator over the tokens. If you want the `Span` you can
     # get it via the `.right_edge` and `.left_edge` properties. The `Span`
     # object is nice because you can easily get a vector, merge it, etc.
- 
+
     for word in doc:
         if word.dep_ in ("xcomp", "ccomp"):
             subtree_span = doc[word.left_edge.i : word.right_edge.i + 1]
