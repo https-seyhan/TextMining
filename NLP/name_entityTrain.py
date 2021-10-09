@@ -70,7 +70,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
         optimizer = nlp.begin_training()
     else:
         optimizer = nlp.resume_training()
-    
+   
     move_names = list(ner.move_names)
     # get names of other pipes to disable them during training
     other_pipes = [pipe for pipe in nlp.pipe_names if pipe != "ner"]
