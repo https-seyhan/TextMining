@@ -78,7 +78,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
     with nlp.disable_pipes(*other_pipes):  # only train NER
         sizes = compounding(1.0, 4.0, 1.001)
         # batch up the examples using spaCy's minibatch
-      
+     
         for itn in range(n_iter):
             random.shuffle(TRAIN_DATA)
             batches = minibatch(TRAIN_DATA, size=sizes)
