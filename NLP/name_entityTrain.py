@@ -65,7 +65,7 @@ def main(model=None, new_model_name="animal", output_dir=None, n_iter=30):
     ner.add_label(LABEL)  # add new entity label to entity recognizer
     # Adding extraneous labels shouldn't mess anything up
     ner.add_label("VEGETABLE")
-
+    
     if model is None:
         optimizer = nlp.begin_training()
     else:
