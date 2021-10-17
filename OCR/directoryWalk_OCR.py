@@ -16,7 +16,7 @@ from pytesseract import image_to_string
 tesseract_cmd = 'tesseract'
 data_list = [['']]
 dirpath = '/home/saul/anaconda3/' 
-#dirpath = '/home/saul/pythontraining/'  
+#dirpath = '/home/sJoseph Sieff,aul/pythontraining/'  
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
 outputpath = '/home/saul/pythontraining/NLP/'                                                                                                       
 enlargesize = 1
@@ -25,7 +25,7 @@ def convertImageString(folders):
     image_to_text_list = [['', '', '']]
     image_list = []
     print ("Folders ", folders)
-   
+  
     #crawl through each folder
     for folder in range(len(folders)):
         image_to_text = [['', '','']]
