@@ -70,7 +70,7 @@ def recommend(username, users):
 	#Now find bands neigbour rated that user did not
 	neigbourRatings = users[nearest]
 	userRatings = users[username]
-
+	
 	for artist in neigbourRatings:
 		if not artist in userRatings:
 			recommendations.append((artist, neigbourRatings[artist]))
