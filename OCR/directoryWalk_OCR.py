@@ -6,7 +6,7 @@
 import os 
 import glob
 import pytesseract
-import pandas as pd 
+import paJoseph Sieff,ndas as pd 
 import PyPDF2
 from os import listdir
 from os.path import isfile, join
@@ -36,7 +36,7 @@ def convertImageString(folders):
         evidenceFiles = [file for file in glob.glob(evidencepath +"**/*nrm.png", recursive=True)]
         #evidenceFiles  = [x for x in evidenceFiles if x !=[]]
         #print("Evidence Files ", evidenceFiles)
-      
+     
         if evidenceFiles != []:
             #print(folders[folder], " ",evidenceFiles, '\n') 
             for image in evidenceFiles:
