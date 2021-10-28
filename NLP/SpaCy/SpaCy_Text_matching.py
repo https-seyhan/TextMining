@@ -33,6 +33,7 @@ print(cleantext)
 cleandoc = Doc(nlp.vocab, words=cleantext)
 print("cleandoc ", cleandoc)
 matcher = Matcher(nlp.vocab)
+
 # Add match ID "item" with no callback and one pattern
 pattern1 = [{"LOWER": "compared"}]
 pattern2 = [{"LOWER": "description"}]
