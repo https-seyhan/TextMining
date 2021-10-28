@@ -3,7 +3,6 @@
 """
 @author: saul
 """
-
 import plac
 from spacy.lang.en import English
 from spacy.matcher import PhraseMatcher, Matcher
