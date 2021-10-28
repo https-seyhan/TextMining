@@ -65,7 +65,7 @@ for match_id, start, end in matches:
     #print(doc[start-4])
     word_dict[span.text][cleandoc[start-4]] = -4
     word_list.append(cleandoc[start-4])
-    
+   
     #print(doc[start-5],'\n')
     word_dict[span.text][cleandoc[start-5]] = -5
     word_list.append(cleandoc[start-5])
