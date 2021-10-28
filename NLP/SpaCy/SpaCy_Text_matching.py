@@ -26,7 +26,7 @@ doc = nlp(text)
  
 #remove stop wods and verbs
 cleantext = [t.text for t in doc if not t.is_stop and t.pos_ != 'VERB']
-print(cleantext) 
+print(cleantext)
 
 #cleandoc = nlp(Doc(nlp.vocab, cleantext))
 # convert list ot nlp doc
