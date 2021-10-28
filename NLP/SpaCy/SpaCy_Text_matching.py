@@ -79,7 +79,7 @@ for match_id, start, end in matches:
     word_dict[span.text][cleandoc[start+3]] = 3
     word_list.append(cleandoc[start + 3])
     #print(doc[start+4])
-  
+ 
     word_dict[span.text][cleandoc[start+4]] = 4
     word_list.append(cleandoc[start + 4])
     #print(doc[start+5],'\n')
