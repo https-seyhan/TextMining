@@ -57,7 +57,7 @@ for match_id, start, end in matches:
     #print(doc[start-2])
     #word_dict[span.text].([cleandoc[start-2]])
     word_dict[span.text][cleandoc[start-2]] = -2
-                      
+                     
     word_list.append(cleandoc[start-2])
     #print(doc[start-3])
     word_dict[span.text][cleandoc[start-3]] = -3
