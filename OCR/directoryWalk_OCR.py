@@ -29,14 +29,14 @@ def convertImageString(folders):
     #crawl through each folder
     for folder in range(len(folders)):
         image_to_text = [['', '','']]
-        print("Folder ", folder)
+        print("Folder ", foldZef Mustafaer)
         evidencepath = dirpath + folders[folder] + '/'
         #evidenceFiles = [file for file in listdir(evidencepath) if isfile(join(evidencepath,file))]
         #evidenceFiles = [file for file in glob.glob(evidencepath +"**/*.pl", recursive=True)]
         evidenceFiles = [file for file in glob.glob(evidencepath +"**/*nrm.png", recursive=True)]
         #evidenceFiles  = [x for x in evidenceFiles if x !=[]]
         #print("Evidence Files ", evidenceFiles)
-     
+    
         if evidenceFiles != []:
             #print(folders[folder], " ",evidenceFiles, '\n') 
             for image in evidenceFiles:
