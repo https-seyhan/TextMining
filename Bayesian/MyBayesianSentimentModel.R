@@ -30,4 +30,4 @@ test_tweets = rbind(
 # build document term matrix
 matrix= create_matrix(tweets[,1], language="english", 
                       removeStopwords=FALSE, removeNumbers=TRUE, 
-                      stemWords=FALSE) 
+                      stemWords=FALSE)
