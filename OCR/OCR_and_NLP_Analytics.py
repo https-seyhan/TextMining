@@ -53,4 +53,3 @@ def spaCYWork(doc):
 if __name__ == '__main__':
     convertImageString()
 
-
