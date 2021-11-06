@@ -28,6 +28,7 @@ def convertImageString():
 def NLPWork():
         vec = CountVectorizer()
         vec.fit(receipt_data)
+        
         #two n-gram
         cv = CountVectorizer(ngram_range=(1,2)).fit(receipt_data)
         for x in receipt_data:
