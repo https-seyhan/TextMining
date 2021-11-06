@@ -30,7 +30,7 @@ def NLPWork():
         vec.fit(receipt_data)
         #two n-gram
         cv = CountVectorizer(ngram_range=(1,2)).fit(receipt_data)
-  
+ 
         for x in receipt_data:
             vec.fit([receipt_data[x]])
             bag_of_words = vec.transform([receipt_data[x]])
