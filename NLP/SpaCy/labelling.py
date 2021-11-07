@@ -21,7 +21,6 @@ TEXTS = [
     "Revenue exceeded twelve billion dollars, with a loss of $1b.",
 ]
 
-
 @plac.annotations(
     model=("Model to load (needs parser and NER)", "positional", None, str)
 )
