@@ -35,7 +35,6 @@ def main(model="en_core_web_sm"):
         for r1, r2 in relations:
             print("{:<10}\t{}\t{}".format(r1.text, r2.ent_type_, r2.text))
 
-
 def filter_spans(spans):
     # Filter a sequence of spans so they don't contain overlaps
     get_sort_key = lambda span: (span.end - span.start, span.start)
