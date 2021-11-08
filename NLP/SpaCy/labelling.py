@@ -7,7 +7,6 @@ from __future__ import unicode_literals, print_function
 import plac
 import spacy
 
-
 """An example of extracting relations between phrases and entities using
 spaCy's named entity recognizer and the dependency parse. Here, we extract
 money and currency values (entities labelled as MONEY) and then check the
