@@ -68,6 +68,5 @@ def extract_currency_relations(doc):
             relations.append((money.head.head, money))
     return relations
 
-
 if __name__ == "__main__":
     plac.call(main)
