@@ -48,7 +48,6 @@ def filter_spans(spans):
             seen_tokens.update(range(span.start, span.end))
     return result
 
-
 def extract_currency_relations(doc):
     # Merge entities and noun chunks into one token
     seen_tokens = set()
