@@ -50,7 +50,6 @@ def filter_spans(spans):
     return result
 
 def extract_currency_relations(doc):
-
     seen_tokens = set()
     spans = list(doc.ents) + list(doc.noun_chunks)
     spans = filter_spans(spans)
