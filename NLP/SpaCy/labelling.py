@@ -24,6 +24,7 @@ TEXTS = [
 @plac.annotations(
     model=("Model to load (needs parser and NER)", "positional", None, str)
 )
+
 def main(model="en_core_web_sm"):
     nlp = spacy.load(model)
     print("Loaded model '%s'" % model)
