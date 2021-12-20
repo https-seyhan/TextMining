@@ -17,7 +17,6 @@ from os import listdir
 from os.path import isfile, join
 
 tesseract_cmd = 'tesseract'
-
 os.chdir('/home/saul/pythontraining')
 
 # get file names in the directory
