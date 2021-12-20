@@ -19,6 +19,7 @@ from os.path import isfile, join
 tesseract_cmd = 'tesseract'
 
 os.chdir('/home/saul/pythontraining')
+
 # get file names in the directory
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
 
