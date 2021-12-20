@@ -4,7 +4,6 @@
 @author: saul
 #This code performs OCR on images using Python modules
 """
-
 import os
 from pytesseract import image_to_string
 import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. 
