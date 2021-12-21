@@ -6,4 +6,4 @@ re.findall('\d+[.]\d\d',s)
 if len(re.findall('\d+[.]\d\d+',s)) > 0:
     print("Two Digit Found")
 else:
-    print("Not Found")
+    print("Two Digits Not Found")
