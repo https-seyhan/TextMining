@@ -106,6 +106,7 @@ wordcloud(words = d$word, freq = d$freq, min.freq = 1,
 
 #Terms vs occurances
 inspect(tdm)
+
 #####################################
 #office Negative Talkers
 office365negativeUsers <- office365negative$body.username
