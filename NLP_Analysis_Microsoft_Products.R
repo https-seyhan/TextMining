@@ -239,6 +239,7 @@ d.users <- data.frame(word = names(v.users),freq=v.users)
 head(d.users, 20)
 #Word Cloud
 set.seed(1234)
+
 wordcloud(words = d.users$word, freq = d.users$freq, min.freq = 1,
           max.words=200, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
