@@ -2,7 +2,7 @@
 """
 Spyder Editor
 
-This is a temporary script file.
+
 """
 import spacy
 from spacy.lang.en import English
