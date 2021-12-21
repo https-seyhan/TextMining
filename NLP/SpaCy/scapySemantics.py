@@ -16,7 +16,7 @@ mytoken = nlp('book')
 #mytoken = nlp('booking')
 #mytoken = nlp('toyota')
 for token1 in mytoken:
-    
+   
     for token2 in tokens:
         print((token1.text, token1.label_), token2.text, token1.similarity(token2))
     
