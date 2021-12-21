@@ -39,7 +39,6 @@ len(article.ents)
 labels = [x.label_ for x in article.ents]
 Counter(labels)
 
-
 # In[7]:
 
 doc2 = nlp("receipt Quantity")
