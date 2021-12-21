@@ -48,7 +48,6 @@ doc2 = nlp("receipt Quantity")
 
 print([(X.text, X.label_) for X in doc2.ents])
 
-
 # In[15]:
 
 print([(X.text, X.label_) for X in article.ents])
