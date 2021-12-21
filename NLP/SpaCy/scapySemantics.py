@@ -2,7 +2,6 @@
 """
 Spyder Editor
 
-
 """
 import spacy
 from spacy.lang.en import English
