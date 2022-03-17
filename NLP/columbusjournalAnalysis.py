@@ -21,6 +21,7 @@ def nlpWork():
     stop_words = set(stopwords.words("english"))
     #word tokenize
     word_tk = word_tokenize(journal)
+    
     #remove stopwords
     clean_text = [word for word in word_tk if not word in stop_words]
     #remove punctuation
