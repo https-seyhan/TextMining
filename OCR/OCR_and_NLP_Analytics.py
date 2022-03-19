@@ -22,7 +22,7 @@ def convertImageString():
     a = PI.open("receipt_preview.jpg")
     #print(image_to_string(a))
     receipt_data['receipt'] = image_to_string(a)
-   
+  
     for x in receipt_data:
         spaCYWork([receipt_data[x]])
 
