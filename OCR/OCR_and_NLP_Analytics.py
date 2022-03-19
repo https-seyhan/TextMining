@@ -37,6 +37,7 @@ def NLPWork():
             vec.fit([receipt_data[x]])
             bag_of_words = vec.transform([receipt_data[x]])
             print("bag_of_words: {}".format(repr(bag_of_words)))
+            
             #print("Dense respresntstion of bag_of_words:\n{}".format(bag_of_words.toarray()))
             feature_names = vec.get_feature_names()
             print("Number of features: {}".format(len(feature_names)))
