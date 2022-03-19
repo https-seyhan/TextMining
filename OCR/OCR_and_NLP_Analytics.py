@@ -47,7 +47,7 @@ def NLPWork():
 
         #print("Vocabulary size : {}".format(len(vec.vocabulary_)))
         #print("Vocabulary content:\n {}".format(vec.vocabulary_))
-   
+  
 def spaCYWork(doc):
     print(doc)
     #print(receipt_data)
