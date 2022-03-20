@@ -16,7 +16,7 @@ os.chdir('/home/saul/royal/royal/spiders/')
 
 def readfiles(firstFile, secondFile):
     pdfdetails = {}
-    
+   
     print("READINNG PDF FILE :",firstFile)
     pdfReader1 = PyPDF2.PdfFileReader(open(firstFile, "rb"))  # PdfFileReader object
     pdfReader2 = PyPDF2.PdfFileReader(open(secondFile, "rb"))  # PdfFileReader object
