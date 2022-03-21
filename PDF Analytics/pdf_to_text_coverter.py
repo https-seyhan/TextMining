@@ -11,7 +11,7 @@ pdfFileObj = open('GassBill2.pdf','rb')
 pdfReader = PyPDF2.PdfFileReader(pdfFileObj)
 print(pdfReader.numPages)
 
-pageObj = pdfReader.getPage(0)          #'0' is the page number
+pageObj = pdfReader.getPage(0)         #'0' is the page number
 pageObj.extractText()
 raw = parser.from_file('GassBill2.pdf')
 print(raw['content'])
