@@ -62,7 +62,7 @@ def get_pdf_diff(pdf1, cleanup=True):
 #        print('Total pages in images: %d'%len(pdf2_list))
 #        pdf1_list.sort()
 #        pdf2_list.sort()
-#
+
 #        #Create the diffed images
 #        result_flag = self.create_diff_image(pdf1_list,pdf2_list,diff_image_dir)
 #    else:
