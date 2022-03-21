@@ -78,4 +78,5 @@ def get_pdf_diff(pdf1, cleanup=True):
 #    return result_flag
 if __name__== '__main__':
     get_pdf_diff('RCD.0001.0075.0002.pdf')
+    
     #get_image_list_from_pdf('RCD.0001.0075.0002.pdf')
