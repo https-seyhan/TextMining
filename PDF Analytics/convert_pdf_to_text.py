@@ -69,7 +69,7 @@ def get_pdf_diff(pdf1, cleanup=True):
 #        print('Total pages in image2 : %d'%len(pdf2_list))
 #        print('Total pages in image1: %d'%len(pdf1_list))
 #        print('ERROR: Skipping image comparison between %s and %s'%(self.pdf1,self.pdf2))
-#
+
 #    if cleanup:
 #        #Delete all the image files created
 #        self.cleanup(diff_image_dir,pdf1_list,pdf2_list)            
