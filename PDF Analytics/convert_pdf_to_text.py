@@ -55,7 +55,7 @@ def get_pdf_diff(pdf1, cleanup=True):
 #    print('diff_images directory created')
 #    print('Total pages in pdf2: %d'%len(pdf2_list))
 #    print('Total pages in pdf1 : %d'%len(pdf1_list))
-#
+
 #    #Verify that there are equal number pages in pdf1 and pdf2
 #    if len(pdf2_list)==len(pdf1_list) and len(pdf2_list) !=0:
 #        print('Check SUCCEEDED: There are an equal number of jpgs created from the pdf generated from pdf2 and pdf1')
