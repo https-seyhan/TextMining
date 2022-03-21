@@ -24,7 +24,7 @@ def get_image_list_from_pdf(pdf_file):
         if f[-4:]=='.jpg' and pdf_name in f:
             #Make sure the file names of both pdf are not similar
             image_list.append(f)
-         
+        
     print('Total of %d jpgs produced after converting the pdf file: %s'%(len(image_list),pdf_file))
     return image_list
 
