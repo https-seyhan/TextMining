@@ -31,7 +31,7 @@ def get_image_list_from_pdf(pdf_file):
 def call_convert(src,dest):
     #Call convert to convert pdf to jpg
     print('About to call convert on %s'%src)
-   
+  
     try:
         subprocess.check_call(["convert",src,dest], shell=True)
     except Exception as e:
