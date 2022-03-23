@@ -55,7 +55,7 @@ for match_id, start, end in matches:
     word_list.append(doc[start + 4])
     print(doc[start+5],'\n')
     word_list.append(doc[start + 5])
-  
+ 
 print(word_list)
 
 #p1 = [{'LOWER': 'quickbrownfox'}]  
