@@ -37,6 +37,7 @@ for match_id, start, end in matches:
     span = doc[start:end]  # The matched span
     print(start, end, span.text)
     print(doc[start-1])
+    
     word_list.append(doc[start-1])
     print(doc[start-2])
     word_list.append(doc[start-2])
