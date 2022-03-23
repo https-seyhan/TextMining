@@ -40,6 +40,7 @@ for match_id, start, end in matches:
     
     word_list.append(doc[start-1])
     print(doc[start-2])
+    
     word_list.append(doc[start-2])
     print(doc[start-3])
     word_list.append(doc[start-3])
