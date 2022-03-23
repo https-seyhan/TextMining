@@ -32,7 +32,7 @@ matches = matcher(doc)
 word_list = []
 
 for match_id, start, end in matches:
-   
+  
     string_id = nlp.vocab.strings[match_id]  # Get string representation
     span = doc[start:end]  # The matched span
     print(start, end, span.text)
