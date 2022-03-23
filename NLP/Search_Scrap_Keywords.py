@@ -49,6 +49,7 @@ for match_id, start, end in matches:
     
     word_list.append(doc[start-4])
     print(doc[start-5],'\n')
+    
     word_list.append(doc[start-5])
     print(doc[start+1])
     word_list.append(doc[start + 1])
