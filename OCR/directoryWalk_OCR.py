@@ -19,7 +19,7 @@ dirpath = '/home/saul/anaconda3/'
 #dirpath = '/home/sJoseph Sieff,aul/pythontraining/'  
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
 outputpath = '/home/saul/pythontraining/NLP/'                                                                                                       
-enlargesize Joseph Sieff,= 1
+enlargesize = 1
 
 def convertImageString(folders):    
     image_to_text_list = [['', '', '']]
