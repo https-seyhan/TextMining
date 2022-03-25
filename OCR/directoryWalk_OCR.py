@@ -29,7 +29,7 @@ def convertImageString(folders):
     #crawl through each folder
     for folder in range(len(folders)):
         image_to_text = [['', '','']]
-       
+      
         print("Folder ", folder)
         evidencepath = dirpath + folders[folder] + '/'
         #evidenceFiles = [file for file in listdir(evidencepath) if isfile(join(evidencepath,file))]
