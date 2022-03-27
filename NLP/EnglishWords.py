@@ -1,6 +1,6 @@
 #Keras implementation of Deeplabv3+
 #pip3 install pyenchant
-# usde US vocabulary for NLP analysis
+# us US vocabulary for NLP analysis
 
 import enchant
 d = enchant.Dict("en_US")
