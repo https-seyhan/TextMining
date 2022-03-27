@@ -18,5 +18,4 @@ report = pd.read_csv('prReports.csv', encoding='utf-8')
 X = report['Description:'].values
 print(X[0])
 y= report['Warning:']
-
 print(pd.crosstab(index=report['Warning:'],columns='count'))
