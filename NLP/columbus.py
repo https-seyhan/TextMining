@@ -42,7 +42,7 @@ for i in range(len(flat_list)):
     flat_list2 = flat_list[i].split(" ")
     #print(flat_list2)
     singlelist.append(flat_list2)
-  
+ 
 #print(singlelist)
 #print(len(singlelist))
 
