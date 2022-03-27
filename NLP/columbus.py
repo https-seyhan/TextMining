@@ -68,7 +68,7 @@ with open('wordfrequency.csv','w') as csvfile:
     fieldnames=['word','count']
     writer=csv.writer(csvfile)
     writer.writerow(fieldnames)
-   
+  
     for key, value in counts.items():
         print(key, value)
         writer.writerow([key] + [value])
