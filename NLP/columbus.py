@@ -49,6 +49,7 @@ flat_list = [item for sublist in singlelist for item in sublist] # convert multi
 print(flat_list)
 counts = Counter(flat_list)
 cnt = 0
+
 for words in flat_list:
     cnt += 1
 
