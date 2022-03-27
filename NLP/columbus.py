@@ -54,7 +54,6 @@ for words in flat_list:
     cnt += 1
 
 print(cnt)
-
 counts.pop('', None) #remove '' key
 
 print("First Item", counts.keys())
