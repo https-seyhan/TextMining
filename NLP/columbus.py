@@ -14,7 +14,7 @@ columbus = []
 with open('columbus.txt') as inputfile:
     for line in inputfile:
         columbus.append(line.strip().split(' '))
-     
+    
 #print(len(columbus))
 #print(columbus[96])
 counts = Counter(columbus[96])
