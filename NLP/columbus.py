@@ -29,7 +29,6 @@ for word in columbus:
     cnt += 1
 print(cnt)
 
-#print(columbus)
 #print(len(columbus))
 #counts = Counter(columbus)
 #sum(x.count(x in columbus))
