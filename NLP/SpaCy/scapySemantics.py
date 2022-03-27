@@ -13,6 +13,7 @@ ruler.add_patterns(patterns)
 nlp.add_pipe(ruler)
 tokens = nlp(u'car travel education other')
 mytoken = nlp('book')
+
 #mytoken = nlp('booking')
 #mytoken = nlp('toyota')
 
