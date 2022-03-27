@@ -22,7 +22,6 @@ counts = Counter(columbus[96])
 
 with open('columbus.txt', newline='') as inputfile:
     columbus = list(csv.reader(inputfile))
-
 cnt = 0
 
 for word in columbus:
