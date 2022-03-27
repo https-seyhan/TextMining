@@ -15,7 +15,7 @@ tokens = nlp(u'car travel education other')
 mytoken = nlp('book')
 
 #mytoken = nlp('booking')
-#mytoken = nlp('toyota')
+#mytoken = nlp('car')
 
 for token1 in mytoken:
     for token2 in tokens:
