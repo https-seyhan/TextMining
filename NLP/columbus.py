@@ -37,6 +37,7 @@ flat_list = [item for sublist in columbus for item in sublist] # convert multipl
 #print(flat_list)
 #print(Counter(flat_list))
 singlelist = []
+
 for i in range(len(flat_list)):
     flat_list2 = flat_list[i].split(" ")
     #print(flat_list2)
