@@ -13,7 +13,7 @@ money and currency values (entities labelled as MONEY) and then check the
 dependency tree to find the noun phrase they are referring to – for example:
 $9.4 million --> Net income.
 Compatible with: spaCy v2.0.0+
-Last tested with: v2.1.0
+
 """
 
 TEXTS = [
