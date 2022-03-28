@@ -22,6 +22,7 @@ stop_words = stopwords.words('english')
 #print(nltk.word_tokenize(columbus_pos))
 
 wtokens = nltk.word_tokenize(columbus_pos)
+
 #print(len(wtokens) )   # Number of words in text
 
 table = str.maketrans('', '', string.punctuation)
