@@ -52,6 +52,7 @@ with open('wordfrequency.csv','w') as csvfile:
     for w, frequency in fdist.most_common(2000):
         print(w, len(w), frequency)
         writer.writerow([w] + [len(w)] + [frequency])
+        
 wfreq = nltk.FreqDist(wtokens)
 
 print("Number of unique words in text : ", len(wfreq))  # Number of unique words in text
