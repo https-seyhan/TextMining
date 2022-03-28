@@ -34,6 +34,7 @@ def main(model="en_core_web_sm"):
     for text in TEXTS:
         doc = nlp(text)
         relations = extract_currency_relations(doc)
+        
         for r1, r2 in relations:
             print("{:<10}\t{}\t{}".format(r1.text, r2.ent_type_, r2.text))
 
