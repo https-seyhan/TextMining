@@ -25,7 +25,7 @@ TEXTS = [
     model=("Model to load (needs parser and NER)", "positional", None, str)
 )
 
-def main(model="en_core_web_sm"):
+def main(model="en_core_web_sm"): # load model
     nlp = spacy.load(model)
     
     print("Loaded model '%s'" % model)
