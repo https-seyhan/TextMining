@@ -11,6 +11,7 @@ corpus = Corpus()
 
 #training the corpus to generate the cooccurence matrix which is used in GloVe
 corpus.fit(lines, window=10)
+
 #creating a Glove object which will use the matrix created in the above lines to create embeddings
 #We can set the learning rate as it uses Gradient Descent and number of components
 
