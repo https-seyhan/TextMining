@@ -29,6 +29,7 @@ wtokens = nltk.word_tokenize(columbus_pos)
 
 table = str.maketrans('', '', string.punctuation)
 removed = [w.translate(table) for w in wtokens]
+
 print("Removed : ", removed) #show what is removed
 
 stop_words = set(stopwords.words('english'))
