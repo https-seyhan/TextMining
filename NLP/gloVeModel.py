@@ -5,6 +5,7 @@
 """
 #GloVe model implementation in Python
 from glove import Corpus, Glove
+
 # creating a corpus object
 corpus = Corpus() 
 #training the corpus to generate the cooccurence matrix which is used in GloVe
