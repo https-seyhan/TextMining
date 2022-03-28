@@ -58,7 +58,6 @@ def extract_currency_relations(doc):
     with doc.retokenize() as retokenizer:
         for span in spans:
             retokenizer.merge(span)
-
     relations = []
     for money in filter(lambda w: w.ent_type_ == "MONEY", doc):
         if money.dep_ in ("attr", "dobj"):
