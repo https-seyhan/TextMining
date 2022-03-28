@@ -15,7 +15,6 @@ $9.4 million --> Net income.
 Compatible with: spaCy v2.0.0+
 
 """
-
 TEXTS = [
     "Net income was $9.4 million compared to the prior year of $2.7 million.",
     "Revenue exceeded twelve billion dollars, with a loss of $1b.",
