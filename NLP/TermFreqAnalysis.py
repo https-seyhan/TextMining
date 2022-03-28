@@ -61,7 +61,7 @@ print("Number of unique words in text : ", len(wfreq))  # Number of unique words
 # Average sentence length, frequency of long words
 sentcount = wfreq['.'] + wfreq['?'] + wfreq['!']  # Assuming every sentence ends with ., ! or ?
 print("Number of Sentences :",sentcount)
-print("Average sentence length in number of words :", len(wtokens)/sentcount)     # Average sentence length in number of words
+print("Average sentence length in number of words :", len(wtokens)/sentcount)     #Average sentence length in number of words
 
 #print([w for w in wfreq if len(w) >= 13])   # all 13+ character words
 long = [w for w in wfreq if len(w) >= 13]
