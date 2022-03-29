@@ -272,6 +272,7 @@ head(d.post, 200)
 barplot(d.post[1:10,]$freq, las = 2, names.arg = d.post[1:10,]$word,
         col ="lightblue", main ="Most frequent words",
         ylab = "Office365 Positive Users")
+
 #Word Cloud
 set.seed(1234)
 wordcloud(words = d.post$word, freq = d.post$freq, min.freq = 1,
