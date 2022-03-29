@@ -54,7 +54,6 @@ def computeNearestNeigbour(username, users):
 			#distance = manhattan(users[user], users[username])
 			distance = euclidian(users[user], users[username])
 			distances.append((distance, user))
-
 	# sort based on distance --closest first
 	distances.sort()
 	print(distances)
