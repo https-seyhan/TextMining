@@ -49,7 +49,7 @@ def manhattan(rating1, rating2):
 
 def computeNearestNeigbour(username, users):
 	distances = []
-	
+
 	for user in users:
 		if user != username:
 			#distance = manhattan(users[user], users[username])
