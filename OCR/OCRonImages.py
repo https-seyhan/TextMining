@@ -9,7 +9,7 @@ from pytesseract import image_to_string
 import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. 
 # This code employs pytesseract
 # Crawl in a directory and obtain each file name of the direcrory
-#That will recognize and “read” the text embedded in images
+# That will recognize and “read” the text embedded in images
 
 import PyPDF2
 from PIL import Image as PI # Python image library
