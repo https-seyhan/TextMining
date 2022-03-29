@@ -74,7 +74,7 @@ def recommend(username, users):
 	for artist in neigbourRatings:
 		if not artist in userRatings:
 			recommendations.append((artist, neigbourRatings[artist]))
-			
+		
 	recommendations.sort(key = lambda artistTuple: artistTuple[1], reverse = True)
 	print("Recommendation :", recommendations)
 	return recommendations
