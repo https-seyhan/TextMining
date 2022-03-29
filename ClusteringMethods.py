@@ -101,6 +101,7 @@ def pearson(rating1, rating2):
 		
 	# now compute denominator
 	denominator = sqrt(sum_x2 - (pow(sum_x, 2) / n)) * sqrt(sum_y2 - (pow(sum_y, 2) / n))
+	
 	if denominator == 0:
 		return 0
 	else:
