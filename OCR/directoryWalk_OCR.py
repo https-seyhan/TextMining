@@ -39,7 +39,7 @@ def convertImageString(folders):
         #print("Evidence Files ", evidenceFiles)
 
         if evidenceFiles != []:
-            #print(folders[folder], " ",evidenceFiles, '\n') 
+            #print(folders[folder], " ",evidenceFiles, '\n')
             for image in evidenceFiles:
                 #print(folders[folder], " ", image, '\n')
                 image_list.append(image)
