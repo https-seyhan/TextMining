@@ -3,6 +3,7 @@
 """
 @author: saul
 """
+
 # Extact text from images and then perform NLP on extracted text
 import os
 import spacy # NLP framework 
