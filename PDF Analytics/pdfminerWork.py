@@ -14,6 +14,7 @@ os.chdir('/home/saul/royal/royal/spiders/')
 # convert pdf file to text
 # then store the text in to a .txt file
 # useful for text scraping off pdf files.
+
 def readfiles(firstFile, secondFile):
     pdfdetails = {}
     print("READINNG PDF FILE :",firstFile)
