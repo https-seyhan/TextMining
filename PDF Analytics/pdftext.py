@@ -42,7 +42,7 @@ def convert(fname, pages=None):
     else:
         pagenums = set(pages)
     output = StringIO()
-  
+ 
     manager = PDFResourceManager()
     converter = TextConverter(manager, output, laparams=LAParams())
     interpreter = PDFPageInterpreter(manager, converter)
