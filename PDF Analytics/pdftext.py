@@ -22,7 +22,7 @@ def convert_pdf_to_txt(path):
     maxpages = 0
     caching = True
     pagenos=set()
-    
+   
     for page in PDFPage.get_pages(fp, pagenos, maxpages=maxpages, 
                                   password=password,
                                   caching=caching, 
