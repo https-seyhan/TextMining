@@ -35,7 +35,7 @@ def readfiles(firstFile, secondFile):
 
     with open('firstfile.txt', 'w') as f:
         f.write(text1)
-   
+  
     num_pages = pdfReader2.numPages
     count = 0
     text2 = ""
