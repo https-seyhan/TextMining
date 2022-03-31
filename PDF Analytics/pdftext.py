@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#import pdfminer3k
+
 #import pdfminer
 import os
 import sys, getopt
