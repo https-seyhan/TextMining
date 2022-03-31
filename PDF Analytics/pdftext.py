@@ -36,7 +36,7 @@ def convert_pdf_to_txt(path):
     return text
 
 def convert(fname, pages=None):
-    
+   
     if not pages:
         pagenums = set()
     else:
