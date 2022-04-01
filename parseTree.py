@@ -8,8 +8,8 @@ Build word tree of a sentence using NLP (Spacy) approach
 from __future__ import unicode_literals, print_function
 import plac # Plac is a wrapper over argparse and works in all versions of Python starting from Python 2.3 up to Python 3.1
 import spacy
-
 @plac.annotations(model=("Model to load", "positional", None, str))
+
 def main(model="en_core_web_sm"):
     nlp = spacy.load(model)
     print("Loaded model '%s'" % model)
