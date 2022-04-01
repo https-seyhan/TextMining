@@ -25,7 +25,7 @@ def main(model="en_core_web_sm"):
     for word in doc:
         if word.dep_ in ("xcomp", "ccomp"):
             print("".join(w.text_with_ws for w in word.subtree))
-  
+ 
     # It'd probably be better for `word.subtree` to return a `Span` object
     # instead of a generator over the tokens. If you want the `Span` you can
     # get it via the `.right_edge` and `.left_edge` properties. The `Span`
