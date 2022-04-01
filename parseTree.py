@@ -19,10 +19,10 @@ def main(model="en_core_web_sm"):
         "displaCy uses CSS and JavaScript to show you how computers "
         "understand language"
     )
-
+    
     # The easiest way is to find the head of the subtree you want, and then use
     # the `.subtree`, `.children`, `.lefts` and `.rights` iterators. `.subtree`
-    # is the one that does what you're asking for most directly:
+    # is the one that does what you're asking for most directly:593913
   
     for word in doc:
         if word.dep_ in ("xcomp", "ccomp"):
