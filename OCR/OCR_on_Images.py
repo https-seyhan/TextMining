@@ -22,6 +22,7 @@ os.chdir('/home/saul/pythontraining')
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
 
 for file in onlyfiles:
+    
     fileReader = PyPDF2.PdfFileReader(open(file,'rb')) # read pdf files in the directory
     count = 0
     while count < 3: # read first 2 pages of the pdf files
