@@ -17,7 +17,6 @@ neg_tweets = rbind(
   c('I am not looking forward to the concert', 'negative'),
   c('He is my enemy', 'negative')
 )
-
 test_tweets = rbind(
   c('feel happy this morning', 'positive'),
   c('larry friend', 'positive'),
