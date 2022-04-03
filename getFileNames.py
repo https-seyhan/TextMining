@@ -21,6 +21,6 @@ onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/ho
     #print(Type[1])
  
     simple_list.append([Type[0], Type[1]])
-   
+  
 df=pd.DataFrame(simple_list,columns=['fileName','extension'])	
 df.to_csv('filedetails.csv', sep=',', index=False)
