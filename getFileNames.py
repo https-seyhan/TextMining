@@ -19,7 +19,7 @@ onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/ho
     #Type = line.split(".")
     #print(Type[0])
     #print(Type[1])
-  
+ 
     simple_list.append([Type[0], Type[1]])
    
 df=pd.DataFrame(simple_list,columns=['fileName','extension'])	
