@@ -15,7 +15,7 @@ os.chdir('/home/saul/pythontraining')
 simple_list=[['','']]
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
 
-for line in onlyfiles:
+#for line in onlyfiles:
     #Type = line.split(".")
     #print(Type[0])
     #print(Type[1])
