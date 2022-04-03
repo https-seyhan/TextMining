@@ -3,6 +3,7 @@
 """
 @author: saul
 """
+
 # This code get each file names and their extentions in a given folder.
 # The model crawls through a given folder
 import pandas as pd
