@@ -17,7 +17,7 @@ onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/ho
 for line in onlyfiles:
     Type = line.split(".")
     #print(Type[0])
-    print(Type[1])
+    #print(Type[1])
     
     simple_list.append([Type[0], Type[1]])
    
