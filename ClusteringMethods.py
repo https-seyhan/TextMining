@@ -65,7 +65,6 @@ def recommend(username, users):
 	print(nearest)
 	print("Neigbour Ratings :", users[nearest])
 	recommendations = []
-
 	#Now find bands neigbour rated that user did not
 	neigbourRatings = users[nearest]
 	userRatings = users[username]
