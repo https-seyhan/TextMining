@@ -9,6 +9,9 @@ import os
 from os import listdir
 from os.path import isfile, join
 
+# This code get each file names and their extentions in a given folder.
+# The model crawls through a given folder
+
 os.chdir('/home/saul/pythontraining')
 simple_list=[['','']]
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
