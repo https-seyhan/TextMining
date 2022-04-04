@@ -13,7 +13,7 @@ import spacy
 def main(model="en_core_web_sm"):
     nlp = spacy.load(model)
     print("Loaded model '%s'" % model)
-
+    
     doc = nlp(
         "displaCy uses CSS and JavaScript to show you how computers "
         "understand language"
