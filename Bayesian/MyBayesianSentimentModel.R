@@ -10,6 +10,7 @@ pos_tweets =  rbind(
   c('I am so excited about the concert', 'positive'),
   c('He is my best friend', 'positive')
 )
+
 neg_tweets = rbind(
   c('I do not like this car', 'negative'),
   c('This view is horrible', 'negative'),
