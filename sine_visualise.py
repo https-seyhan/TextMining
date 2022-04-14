@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from matplotlib.pylab import rcParams
 # Sine function visualisation
 
-#
+#function
 def visualise():
 	print('Test')
 	%matplotlib inline
