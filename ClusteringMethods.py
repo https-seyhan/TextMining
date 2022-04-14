@@ -59,6 +59,7 @@ def computeNearestNeigbour(username, users):
 			#distance = manhattan(users[user], users[username])
 			distance = euclidian(users[user], users[username])
 			distances.append((distance, user))
+	
 	# sort based on distance --closest first
 	distances.sort()
 	print(distances)
@@ -71,7 +72,7 @@ def recommend(username, users):
 	print(nearest)
 	print("Neigbour Ratings :", users[nearest])
 	recommendations = []
-	
+
 	#Now find bands neigbour rated that user did not
 	neigbourRatings = users[nearest]
 	userRatings = users[username]
