@@ -16,7 +16,7 @@ os.chdir('/home/saul/royal/royal/spiders/')
 # useful for text scraping off pdf files.
 
 def readfiles(firstFile, secondFile):
-    
+    # create a dictionary
     pdfdetails = {}
     print("READINNG PDF FILE :",firstFile)
     pdfReader1 = PyPDF2.PdfFileReader(open(firstFile, "rb"))  # PdfFileReader object
