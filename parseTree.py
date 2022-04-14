@@ -35,6 +35,7 @@ def main(model="en_core_web_sm"):
         if word.dep_ in ("xcomp", "ccomp"):
             subtree_span = doc[word.left_edge.i : word.right_edge.i + 1]
             print(subtree_span.text, "|", subtree_span.root.text)
+            
     # You might also want to select a head, and then select a start and end
     # position by walking along its children. You could then take the
     # `.left_edge` and `.right_edge` of those tokens, and use it to calculate
