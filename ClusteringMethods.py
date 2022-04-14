@@ -48,7 +48,7 @@ def manhattan(rating1, rating2):
 	if total > 0:
 		return distance / total
 	else:
-		return -1 
+		return -1
 
 def computeNearestNeigbour(username, users):
 	distances = []
