@@ -3,7 +3,7 @@
 #us US vocabulary for NLP analysis
 
 import enchant
-d = enchant.Dict("en_US")
+d = enchant.Dict("en_US") # dictionary 
 d.check("Hello")
 d.check("Helo")
 
