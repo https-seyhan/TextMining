@@ -45,6 +45,7 @@ def manhattan(rating1, rating2):
 		if key in rating2 :
 			distance +=abs(rating1[key] - rating2[key])
 			total +=1
+	
 	if total > 0:
 		return distance / total
 	else:
