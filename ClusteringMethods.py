@@ -4,7 +4,7 @@ from math import pow
 from math import sqrt
 
 #Cluster users by euclidian distance measure of their ratings in dictionary form
-
+#
 users = {"Angelica":{"Blues Traveller":3.5, "Broken Bells":2.0,
 "Norah Jones":4.5, "Phonenix":5.0, "Slightly Stoopid":1.5,
 "The Strookes":2.5, "Wampire Weekend":2.0},
