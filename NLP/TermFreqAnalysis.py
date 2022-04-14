@@ -20,7 +20,7 @@ for r in columbus_pos.split('\n'):
 
 stop_words = stopwords.words('english')
 
-# Slice text in words
+#Slice text in words
 #print(nltk.word_tokenize(columbus_pos))
 
 wtokens = nltk.word_tokenize(columbus_pos)
