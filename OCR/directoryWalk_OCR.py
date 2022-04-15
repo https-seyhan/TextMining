@@ -14,7 +14,7 @@ from PIL import Image as PI
 from pytesseract import image_to_string
 
 tesseract_cmd = 'tesseract'
-data_list = [['']]
+data_list = [['']] #
 dirpath = '/home/saul/anaconda3/' 
 #dirpath = '/home/sJoseph Sieff,aul/pythontraining/'  
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
