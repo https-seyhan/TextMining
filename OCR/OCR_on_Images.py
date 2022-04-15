@@ -22,7 +22,7 @@ os.chdir('/home/saul/pythontraining')
 # get file names in the directory
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
 
-#
+#loop through files
 for file in onlyfiles:
     fileReader = PyPDF2.PdfFileReader(open(file,'rb')) # read pdf files in the directory
     count = 0
