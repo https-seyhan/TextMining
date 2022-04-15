@@ -12,6 +12,7 @@ import os
 import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python.
 from pytesseract import image_to_string
 import PyPDF2
+
 from PIL import Image as PI # Python image library
 from os import listdir
 from os.path import isfile, join
