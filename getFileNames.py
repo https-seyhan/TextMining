@@ -13,6 +13,7 @@ from os.path import isfile, join
 
 os.chdir('/home/saul/pythontraining')
 simple_list=[['','']]
+
 onlyfiles = [f for f in listdir('/home/saul/pythontraining') if isfile(join('/home/saul/pythontraining', f))]
 #for line in onlyfiles:
     #Type = line.split(".")
