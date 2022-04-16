@@ -24,7 +24,7 @@ enlargesize = 1
 def convertImageString(folders):    
     image_to_text_list = [['', '', '']]
     image_list = []
-    print ("Folders ", folders)
+    print ("Folders ", folders) #
     #crawl through each folder
     for folder in range(len(folders)):
         image_to_text = [['', '','']]
