@@ -64,7 +64,6 @@ def computeNearestNeigbour(username, users):
 	return distances
 
 def recommend(username, users):
-
 	#first find nearest neigbour
 	nearest = computeNearestNeigbour(username, users)[0][1]
 	print("Current User Ratings :", users[username])
