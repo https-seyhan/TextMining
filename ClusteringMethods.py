@@ -1,6 +1,5 @@
 import pandas as pd
 from math import pow
-from math import sqrt
 
 #Cluster users by euclidian distance measure of their ratings in dictionary form
 #Data in Dictionary
