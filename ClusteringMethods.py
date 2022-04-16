@@ -23,7 +23,6 @@ users = {"Angelica":{"Blues Traveller":3.5, "Broken Bells":2.0,
 
 def printpeople(user):
 	print(user)
-
 def euclidian(rating1, rating2):
 	distance = 0
 	total = 0
