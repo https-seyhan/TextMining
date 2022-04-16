@@ -1,6 +1,6 @@
 import pandas as pd
-from math import pow, sqrt
-from math import
+from math import pow, 
+from math import sqrt
 #Cluster users by euclidian distance measure of their ratings in dictionary form
 #Data in Dictionary
 users = {"Angelica":{"Blues Traveller":3.5, "Broken Bells":2.0,
