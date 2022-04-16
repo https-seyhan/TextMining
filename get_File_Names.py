@@ -7,7 +7,6 @@ import pandas as pd
 import os
 from os import listdir
 from os.path import isfile, join
-
 # This code get each file names and their extentions in a given folder.
 # The model crawls through a given folder
 
