@@ -29,7 +29,6 @@ def main(model="en_core_web_sm"): # load model
     
     print("Loaded model '%s'" % model)
     print("Processing %d texts" % len(TEXTS))
-
     for text in TEXTS:
         doc = nlp(text)
         relations = extract_currency_relations(doc)
