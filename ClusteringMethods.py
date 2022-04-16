@@ -1,5 +1,4 @@
 import pandas as pd
-
 from math import pow
 from math import sqrt
 
