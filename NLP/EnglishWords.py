@@ -7,6 +7,5 @@ d = enchant.Dict("en_US") # dictionary
 d.check("Hello")
 d.check("Helo")
 d.check("Hlo")
-
 #get firts on on the list as the closest suggested word
 d.suggest("aricle")
