@@ -12,7 +12,7 @@ from os import listdir
 from os.path import isfile, join
 from PIL import Image as PI
 from pytesseract import image_to_string
-
+#
 tesseract_cmd = 'tesseract'
 data_list = [['']] #Keep everything in a list
 dirpath = '/home/saul/anaconda3/' 
