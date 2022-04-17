@@ -29,6 +29,7 @@ def euclidian(rating1, rating2):
 		if key in rating2:
 			distance = (rating1[key] - rating2[key])**2
 			total += 1
+			
 	if total > 0:
 		return math.sqrt(distance / total)
 	else:
