@@ -11,6 +11,7 @@ def visualise():
 	%matplotlib inline
 
 rcParams['figure.figsize'] = 12, 10
+
 #Define input array with angles from 60deg to 300deg converted to radians
 x = np.array([i*np.pi/180 for i in range(60,300,4)])
 np.random.seed(10)  #Setting seed for reproducability
