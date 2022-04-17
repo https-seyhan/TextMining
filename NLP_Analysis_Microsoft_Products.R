@@ -13,7 +13,6 @@ office365positive <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/offi
 
 surfacenegative <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/surfacenegative.csv")
 surfacepositive <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/surfacepositive.csv")
-
 windowspositive<- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/windowspositive.csv")
 windowsnegative <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/windowsnegative.csv")
 
