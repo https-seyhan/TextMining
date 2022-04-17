@@ -18,7 +18,6 @@ windowsnegative <- read.csv("~/pythontut/Dashboard/MS Consumer Report/fan/window
 
 summary(office365positive$body.username)
 summary(office365negative)
-
 #office Positive Talkers
 office365positiveUsers <- office365positive$body.username
 #summary(office365positiveUsers)
