@@ -16,7 +16,6 @@ from pytesseract import image_to_string
 #Parameters
 tesseract_cmd = 'tesseract'
 data_list = [['']] #Keep everything in a list
-
 #dirpath = '/home/saul/pythontraining/'  
 dirpath = '/media/saul/UUI/GT4HistOCR(1)/' 
 outputpath = '/home/saul/pythontraining/NLP/'                                                                                                       
