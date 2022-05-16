@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 @author: saul
-#This code performs OCR on images using Python modules
+# This code performs OCR on images using Python modules
 # This code employs pytesseract
 # Crawl in a directory and obtain each file name of the direcrory
 # That will recognize and “read” the text embedded in images
