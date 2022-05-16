@@ -7,6 +7,7 @@
 # Crawl in a directory and obtain each file name of the direcrory
 # That will recognize and “read” the text embedded in images
 """
+#
 import os
 import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python.
 from pytesseract import image_to_string # convert image to text
