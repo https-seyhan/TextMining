@@ -9,7 +9,7 @@
 """
 # Scrap text of images.
 import os
-import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. NN based
+import pytesseract # Python-tesseract is an optical character recognition (OCR) tool for python. NN based.
 from pytesseract import image_to_string # convert image to text
 import PyPDF2
 
