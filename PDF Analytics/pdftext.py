@@ -27,7 +27,7 @@ def convert_pdf_to_txt(path):
                                   password=password,
                                   caching=caching, 
                                   check_extractable=True):
-       
+      
         interpreter.process_page(page)
 
     text = retstr.getvalue()
