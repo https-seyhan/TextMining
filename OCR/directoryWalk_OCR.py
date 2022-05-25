@@ -22,7 +22,7 @@ outputpath = '/home/saul/pythontraining/NLP/'
 enlargesize = 1
 
 def convertImageString(folders):    
-    image_to_text_list = [['', '', '']] # Add folder, image names and text 
+    image_to_text_list = [['', '', '']] # Add folder, image names and text in the 
     image_list = []
     print ("Folders ", folders) #
     
